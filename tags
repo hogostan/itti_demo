@@ -1,0 +1,1175 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASSERTIONS_H_	./inc/assertions.h	38;"	d
+AssertError	./inc/assertions.h	100;"	d
+AssertFatal	./inc/assertions.h	75;"	d
+B64_ERR	./bstr/bstraux.c	379;"	d	file:
+B64_PAD	./bstr/bstraux.c	378;"	d	file:
+BACKTRACE_H_	./inc/backtrace.h	33;"	d
+BSSSC_BUFF_LEN	./bstr/bstrlib.c	2455;"	d	file:
+BSTRAUX_INCLUDE	./bstr/bstraux.h	17;"	d
+BSTRLIB_BSAFE_INCLUDE	./bstr/bsafe.h	18;"	d
+BSTRLIB_CANNOT_USE_IOSTREAM	./bstr/bstrwrap.h	27;"	d
+BSTRLIB_CANNOT_USE_STL	./bstr/bstrwrap.h	24;"	d
+BSTRLIB_CAN_USE_IOSTREAM	./bstr/bstrwrap.h	40;"	d
+BSTRLIB_CAN_USE_STL	./bstr/bstrwrap.h	34;"	d
+BSTRLIB_INCLUDE	./bstr/bstrlib.h	15;"	d
+BSTRLIB_NOVSNP	./bstr/bstrlib.c	2917;"	d	file:
+BSTRLIB_NOVSNP	./bstr/bstrlib.h	28;"	d
+BSTRLIB_NOVSNP	./bstr/bstrwrap.cpp	529;"	d	file:
+BSTRLIB_THROWS_EXCEPTIONS	./bstr/bstrwrap.h	47;"	d
+BSTRLIB_UNICODE_UTILITIES	./bstr/buniutil.h	16;"	d
+BSTRWRAP_INCLUDE	./bstr/bstrwrap.h	15;"	d
+BSTR_BS_BUFF_LENGTH_GET	./bstr/bstrlib.h	34;"	d
+BSTR_ERR	./bstr/bstrlib.h	32;"	d
+BSTR_OK	./bstr/bstrlib.h	33;"	d
+BS_BUFF_SZ	./bstr/bstrlib.c	1902;"	d	file:
+BS_BUFF_SZ	./bstr/bstrwrap.cpp	1628;"	d	file:
+BWS_BUFF_SZ	./bstr/bstraux.c	1008;"	d	file:
+Bstrlib	./bstr/bstrwrap.cpp	/^namespace Bstrlib {$/;"	n	file:
+Bstrlib	./bstr/bstrwrap.h	/^namespace Bstrlib {$/;"	n
+CBCharWriteProtected	./bstr/bstrwrap.h	/^	CBCharWriteProtected (const struct tagbstring& c, int i) : s(c), idx((unsigned int)i) {$/;"	f	class:Bstrlib::CBCharWriteProtected
+CBCharWriteProtected	./bstr/bstrwrap.h	/^class CBCharWriteProtected {$/;"	c	namespace:Bstrlib
+CBStream	./bstr/bstrwrap.cpp	/^CBStream::CBStream (bNread readPtr, void * parm) {$/;"	f	class:Bstrlib::CBStream
+CBStream	./bstr/bstrwrap.h	/^struct CBStream {$/;"	s	namespace:Bstrlib
+CBString	./bstr/bstrwrap.cpp	/^CBString::CBString () {$/;"	f	class:Bstrlib::CBString
+CBString	./bstr/bstrwrap.cpp	/^CBString::CBString (char c) {$/;"	f	class:Bstrlib::CBString
+CBString	./bstr/bstrwrap.cpp	/^CBString::CBString (char c, int len) {$/;"	f	class:Bstrlib::CBString
+CBString	./bstr/bstrwrap.cpp	/^CBString::CBString (const CBString& b) {$/;"	f	class:Bstrlib::CBString
+CBString	./bstr/bstrwrap.cpp	/^CBString::CBString (const CBStringList& l) {$/;"	f	class:Bstrlib::CBString
+CBString	./bstr/bstrwrap.cpp	/^CBString::CBString (const char *s) {$/;"	f	class:Bstrlib::CBString
+CBString	./bstr/bstrwrap.cpp	/^CBString::CBString (const struct CBStringList& l, char sep) {$/;"	f	class:Bstrlib::CBString
+CBString	./bstr/bstrwrap.cpp	/^CBString::CBString (const struct CBStringList& l, const CBString& sep) {$/;"	f	class:Bstrlib::CBString
+CBString	./bstr/bstrwrap.cpp	/^CBString::CBString (const struct CBStringList& l, unsigned char sep) {$/;"	f	class:Bstrlib::CBString
+CBString	./bstr/bstrwrap.cpp	/^CBString::CBString (const tagbstring& x) {$/;"	f	class:Bstrlib::CBString
+CBString	./bstr/bstrwrap.cpp	/^CBString::CBString (const void * blk, int len) { $/;"	f	class:Bstrlib::CBString
+CBString	./bstr/bstrwrap.cpp	/^CBString::CBString (int len, const char *s) {$/;"	f	class:Bstrlib::CBString
+CBString	./bstr/bstrwrap.cpp	/^CBString::CBString (unsigned char c) {$/;"	f	class:Bstrlib::CBString
+CBString	./bstr/bstrwrap.h	/^struct CBString : public tagbstring {$/;"	s	namespace:Bstrlib
+CBStringException	./bstr/bstrwrap.h	/^	CBStringException (const std::string inmsg) : msg(inmsg) {}$/;"	f	struct:Bstrlib::CBStringException
+CBStringException	./bstr/bstrwrap.h	/^struct CBStringException : public std::exception {$/;"	s	namespace:Bstrlib
+CBStringList	./bstr/bstrwrap.h	/^struct CBStringList : public std::vector<CBString> {$/;"	s	namespace:Bstrlib
+CFCLEN	./bstr/bstrlib.c	1372;"	d	file:
+CFCLEN	./bstr/bstrlib.c	1384;"	d	file:
+CHARS_TO_UINT32	./inc/itti_types.h	40;"	d
+CHARS_TO_UINT32	./inc/memory_pools.c	49;"	d	file:
+CHECK_INIT_RETURN	./inc/assertions.h	88;"	d
+CHECK_PROTOTYPE_ONLY	./inc/intertask_interface.c	56;"	d	file:
+CHECK_PROTOTYPE_ONLY	./inc/intertask_interface.c	58;"	d	file:
+DEMO_DATA_IND	./inc/demo_messages_types.h	1;"	d
+DevAssert	./inc/assertions.h	84;"	d
+DevCheck	./inc/assertions.h	76;"	d
+DevCheck4	./inc/assertions.h	80;"	d
+DevMessage	./inc/assertions.h	86;"	d
+DevParam	./inc/assertions.h	101;"	d
+EIGHT_CHAR_STRING	./bstr/bstest.c	146;"	d	file:
+EMPTY_STRING	./bstr/bstest.c	144;"	d	file:
+EXCEPTION_EXPECTED	./bstr/test.cpp	134;"	d	file:
+INITIAL_STATIC_FIND_INDEX_COUNT	./bstr/bstrlib.c	1674;"	d	file:
+INIT_SECURE_INPUT_LENGTH	./bstr/bstraux.c	955;"	d	file:
+INSTANCE_ALL	./inc/itti_types.h	76;"	d
+INSTANCE_DEFAULT	./inc/itti_types.h	75;"	d
+INTERTASK_INTERFACE_DUMP_H_	./inc/intertask_interface_dump.h	31;"	d
+INTERTASK_INTERFACE_H_	./inc/intertask_interface.h	43;"	d
+INTERTASK_INTERFACE_INIT_H_	./inc/intertask_interface_init.h	46;"	d
+INTERTASK_INTERFACE_TYPES_H_	./inc/intertask_interface_types.h	37;"	d
+INTERTASK_MESSAGES_TYPES_H_	./inc/intertask_messages_types.h	39;"	d
+ITEMS_GROUP_INDEX_INVALID	./inc/memory_pools.c	/^static const items_group_index_t        ITEMS_GROUP_INDEX_INVALID = -1;$/;"	v	file:
+ITEMS_GROUP_POSITION_INVALID	./inc/memory_pools.c	/^static const items_group_position_t     ITEMS_GROUP_POSITION_INVALID = -1;$/;"	v	file:
+ITEM_STATUS_ALLOCATED	./inc/memory_pools.c	/^static const item_status_t              ITEM_STATUS_ALLOCATED = 'a';$/;"	v	file:
+ITEM_STATUS_FREE	./inc/memory_pools.c	/^static const item_status_t              ITEM_STATUS_FREE = 'F';$/;"	v	file:
+ITTI_DEBUG	./inc/intertask_interface.c	77;"	d	file:
+ITTI_DEBUG_EVEN_FD	./inc/intertask_interface.c	68;"	d	file:
+ITTI_DEBUG_EXIT	./inc/intertask_interface.c	70;"	d	file:
+ITTI_DEBUG_INIT	./inc/intertask_interface.c	69;"	d	file:
+ITTI_DEBUG_ISSUES	./inc/intertask_interface.c	71;"	d	file:
+ITTI_DEBUG_MP_STATISTICS	./inc/intertask_interface.c	72;"	d	file:
+ITTI_DEBUG_POLL	./inc/intertask_interface.c	66;"	d	file:
+ITTI_DEBUG_SEND	./inc/intertask_interface.c	67;"	d	file:
+ITTI_DUMP_DEBUG	./inc/intertask_interface_dump.c	70;"	d	file:
+ITTI_DUMP_ERROR	./inc/intertask_interface_dump.c	72;"	d	file:
+ITTI_DUMP_EXIT_SIGNAL	./inc/itti_types.h	/^  ITTI_DUMP_EXIT_SIGNAL =           CHARS_TO_UINT32 ('e', 'X', 'I', 'T'),$/;"	e	enum:itti_message_types_e
+ITTI_DUMP_MESSAGE_TYPE	./inc/itti_types.h	/^  ITTI_DUMP_MESSAGE_TYPE =          CHARS_TO_UINT32 ('\\n', 'I', 'm', 's'),$/;"	e	enum:itti_message_types_e
+ITTI_DUMP_MESSAGE_TYPE_END	./inc/itti_types.h	/^  ITTI_DUMP_MESSAGE_TYPE_END =      CHARS_TO_UINT32 ('i', 'M', 'S', '\\n'),$/;"	e	enum:itti_message_types_e
+ITTI_DUMP_XML_DEFINITION	./inc/itti_types.h	/^  ITTI_DUMP_XML_DEFINITION =        CHARS_TO_UINT32 ('\\n', 'I', 'x', 'd'),$/;"	e	enum:itti_message_types_e
+ITTI_DUMP_XML_DEFINITION_END	./inc/itti_types.h	/^  ITTI_DUMP_XML_DEFINITION_END =    CHARS_TO_UINT32 ('i', 'X', 'D', '\\n'),$/;"	e	enum:itti_message_types_e
+ITTI_MESSAGE_GET_INSTANCE	./inc/intertask_interface_types.h	62;"	d
+ITTI_MSG_DESTINATION_ID	./inc/intertask_interface.h	54;"	d
+ITTI_MSG_DESTINATION_NAME	./inc/intertask_interface.h	58;"	d
+ITTI_MSG_ID	./inc/intertask_interface.h	52;"	d
+ITTI_MSG_INSTANCE	./inc/intertask_interface.h	55;"	d
+ITTI_MSG_NAME	./inc/intertask_interface.h	56;"	d
+ITTI_MSG_ORIGIN_ID	./inc/intertask_interface.h	53;"	d
+ITTI_MSG_ORIGIN_NAME	./inc/intertask_interface.h	57;"	d
+ITTI_STATISTIC_MESSAGE_TYPE	./inc/itti_types.h	/^  ITTI_STATISTIC_MESSAGE_TYPE =     CHARS_TO_UINT32 ('\\n', 'I', 's', 't'),$/;"	e	enum:itti_message_types_e
+ITTI_STATISTIC_MESSAGE_TYPE_END	./inc/itti_types.h	/^  ITTI_STATISTIC_MESSAGE_TYPE_END = CHARS_TO_UINT32 ('i', 'S', 'T', '\\n'),$/;"	e	enum:itti_message_types_e
+IttiMsgEmpty	./inc/intertask_messages_types.h	/^} IttiMsgEmpty;$/;"	t	typeref:struct:IttiMsgEmpty_s
+IttiMsgEmpty_s	./inc/intertask_messages_types.h	/^typedef struct IttiMsgEmpty_s {$/;"	s
+IttiMsgText	./inc/intertask_messages_types.h	/^} IttiMsgText;$/;"	t	typeref:struct:IttiMsgText_s
+IttiMsgText_s	./inc/intertask_messages_types.h	/^typedef struct IttiMsgText_s {$/;"	s
+LONG_BITS_QTY	./bstr/bstrlib.c	1369;"	d	file:
+LONG_LOG_BITS_QTY	./bstr/bstrlib.c	1368;"	d	file:
+LONG_STRING	./bstr/bstest.c	147;"	d	file:
+LONG_TYPE	./bstr/bstrlib.c	1370;"	d	file:
+LOTS_OF_S	./bstr/bstest.c	2649;"	d	file:
+MAX_OB_LEN	./bstr/bstraux.c	795;"	d	file:
+MAX_POOLS_NUMBER	./inc/memory_pools.c	/^static const uint32_t                   MAX_POOLS_NUMBER = 20;$/;"	v	file:
+MAX_POOL_ITEMS_NUMBER	./inc/memory_pools.c	/^static const uint32_t                   MAX_POOL_ITEMS_NUMBER = 200 * 1000;$/;"	v	file:
+MAX_POOL_ITEM_SIZE	./inc/memory_pools.c	/^static const uint32_t                   MAX_POOL_ITEM_SIZE = 100 * 1000;$/;"	v	file:
+MEMORY_POOLS_H_	./inc/memory_pools.h	31;"	d
+MEMORY_POOL_ITEM_INFO_NUMBER	./inc/memory_pools.c	51;"	d	file:
+MESSAGES_ID_MAX	./inc/intertask_interface_types.h	/^  MESSAGES_ID_MAX,$/;"	e	enum:__anon4
+MESSAGES_TYPES_H_	./inc/messages_types.h	38;"	d
+MESSAGE_DEF	./inc/intertask_interface_init.h	70;"	d
+MESSAGE_DEF	./inc/intertask_interface_init.h	72;"	d
+MESSAGE_DEF	./inc/intertask_interface_types.h	113;"	d
+MESSAGE_DEF	./inc/intertask_interface_types.h	115;"	d
+MESSAGE_DEF	./inc/intertask_interface_types.h	68;"	d
+MESSAGE_DEF	./inc/intertask_interface_types.h	70;"	d
+MESSAGE_NUMBER_CHAR_FORMAT	./inc/itti_types.h	42;"	d
+MESSAGE_NUMBER_SIZE	./inc/intertask_interface.h	62;"	d
+MESSAGE_PRIORITY_MAX	./inc/intertask_interface.h	/^  MESSAGE_PRIORITY_MAX       = 100,$/;"	e	enum:message_priorities_e
+MESSAGE_PRIORITY_MAX_LEAST	./inc/intertask_interface.h	/^  MESSAGE_PRIORITY_MAX_LEAST = 85,$/;"	e	enum:message_priorities_e
+MESSAGE_PRIORITY_MED	./inc/intertask_interface.h	/^  MESSAGE_PRIORITY_MED       = 55,$/;"	e	enum:message_priorities_e
+MESSAGE_PRIORITY_MED_LEAST	./inc/intertask_interface.h	/^  MESSAGE_PRIORITY_MED_LEAST = 40,$/;"	e	enum:message_priorities_e
+MESSAGE_PRIORITY_MED_PLUS	./inc/intertask_interface.h	/^  MESSAGE_PRIORITY_MED_PLUS  = 70,$/;"	e	enum:message_priorities_e
+MESSAGE_PRIORITY_MIN	./inc/intertask_interface.h	/^  MESSAGE_PRIORITY_MIN       = 10,$/;"	e	enum:message_priorities_e
+MESSAGE_PRIORITY_MIN_PLUS	./inc/intertask_interface.h	/^  MESSAGE_PRIORITY_MIN_PLUS  = 25,$/;"	e	enum:message_priorities_e
+MESSAGE_SIZE	./inc/intertask_interface.c	80;"	d	file:
+MP_DEBUG	./inc/memory_pools.c	38;"	d	file:
+MessageDef	./inc/intertask_interface_types.h	/^} MessageDef;$/;"	t	typeref:struct:MessageDef_s
+MessageDef_s	./inc/intertask_interface_types.h	/^typedef struct __attribute__ ((__packed__)) MessageDef_s {$/;"	s
+MessageHeader	./inc/intertask_interface_types.h	/^} MessageHeader;$/;"	t	typeref:struct:MessageHeader_s
+MessageHeaderSize	./inc/intertask_interface_types.h	/^typedef uint16_t MessageHeaderSize;$/;"	t
+MessageHeader_s	./inc/intertask_interface_types.h	/^typedef struct MessageHeader_s {$/;"	s
+MessagesIds	./inc/intertask_interface_types.h	/^} MessagesIds;$/;"	t	typeref:enum:__anon4
+NULL	./bstr/utf8util.c	19;"	d	file:
+NULL	./bstr/utf8util.c	21;"	d	file:
+POOLS_START_MARK	./inc/memory_pools.c	/^static const pools_start_mark_t         POOLS_START_MARK = CHARS_TO_UINT32 ('P', 'S', 's', 't');$/;"	v	file:
+POOL_ITEM_END_MARK	./inc/memory_pools.c	/^static const pool_item_end_mark_t       POOL_ITEM_END_MARK = CHARS_TO_UINT32 ('p', 'i', 'E', 'N');$/;"	v	file:
+POOL_ITEM_START_MARK	./inc/memory_pools.c	/^static const pool_item_start_mark_t     POOL_ITEM_START_MARK = CHARS_TO_UINT32 ('P', 'I', 's', 't');$/;"	v	file:
+POOL_START_MARK	./inc/memory_pools.c	/^static const pool_start_mark_t          POOL_START_MARK = CHARS_TO_UINT32 ('P', '_', 's', 't');$/;"	v	file:
+SHORT_STRING	./bstr/bstest.c	145;"	d	file:
+SIGNALS_H_	./inc/signals.h	31;"	d
+SIGTIMER	./inc/timer.h	35;"	d
+SIG_DEBUG	./inc/signals.c	53;"	d	file:
+SIG_DEBUG	./inc/signals.c	58;"	d	file:
+SIG_ERROR	./inc/signals.c	54;"	d	file:
+SIG_ERROR	./inc/signals.c	61;"	d	file:
+START_VSNBUFF	./bstr/bstrlib.c	2929;"	d	file:
+START_VSNBUFF	./bstr/bstrlib.c	2945;"	d	file:
+START_VSNBUFF	./bstr/bstrwrap.cpp	541;"	d	file:
+START_VSNBUFF	./bstr/bstrwrap.cpp	557;"	d	file:
+SUB_TASK_DEF	./inc/intertask_interface_init.h	62;"	d
+SUB_TASK_DEF	./inc/intertask_interface_init.h	64;"	d
+SUB_TASK_DEF	./inc/intertask_interface_types.h	103;"	d
+SUB_TASK_DEF	./inc/intertask_interface_types.h	105;"	d
+SUB_TASK_DEF	./inc/intertask_interface_types.h	80;"	d
+SUB_TASK_DEF	./inc/intertask_interface_types.h	82;"	d
+SUB_TASK_DEF	./inc/intertask_interface_types.h	92;"	d
+SUB_TASK_DEF	./inc/intertask_interface_types.h	94;"	d
+TASK_DEF	./inc/intertask_interface_init.h	61;"	d
+TASK_DEF	./inc/intertask_interface_init.h	65;"	d
+TASK_DEF	./inc/intertask_interface_types.h	102;"	d
+TASK_DEF	./inc/intertask_interface_types.h	106;"	d
+TASK_DEF	./inc/intertask_interface_types.h	79;"	d
+TASK_DEF	./inc/intertask_interface_types.h	83;"	d
+TASK_DEF	./inc/intertask_interface_types.h	91;"	d
+TASK_DEF	./inc/intertask_interface_types.h	95;"	d
+TASK_FIRST	./inc/intertask_interface_types.h	/^  TASK_FIRST = 1,$/;"	e	enum:__anon7
+TASK_GET_PARENT_TASK_ID	./inc/intertask_interface_types.h	60;"	d
+TASK_GET_THREAD_ID	./inc/intertask_interface_types.h	59;"	d
+TASK_MAX	./inc/intertask_interface_types.h	/^  TASK_MAX,$/;"	e	enum:__anon7
+TASK_PRIORITY_MAX	./inc/intertask_interface.h	/^  TASK_PRIORITY_MAX       = 100,$/;"	e	enum:task_priorities_e
+TASK_PRIORITY_MAX_LEAST	./inc/intertask_interface.h	/^  TASK_PRIORITY_MAX_LEAST = 85,$/;"	e	enum:task_priorities_e
+TASK_PRIORITY_MED	./inc/intertask_interface.h	/^  TASK_PRIORITY_MED       = 55,$/;"	e	enum:task_priorities_e
+TASK_PRIORITY_MED_LEAST	./inc/intertask_interface.h	/^  TASK_PRIORITY_MED_LEAST = 40,$/;"	e	enum:task_priorities_e
+TASK_PRIORITY_MED_PLUS	./inc/intertask_interface.h	/^  TASK_PRIORITY_MED_PLUS  = 70,$/;"	e	enum:task_priorities_e
+TASK_PRIORITY_MIN	./inc/intertask_interface.h	/^  TASK_PRIORITY_MIN       = 10,$/;"	e	enum:task_priorities_e
+TASK_PRIORITY_MIN_PLUS	./inc/intertask_interface.h	/^  TASK_PRIORITY_MIN_PLUS  = 25,$/;"	e	enum:task_priorities_e
+TASK_STATE_ENDED	./inc/intertask_interface.c	/^  TASK_STATE_NOT_CONFIGURED, TASK_STATE_STARTING, TASK_STATE_READY, TASK_STATE_ENDED, TASK_STATE_MAX,$/;"	e	enum:task_state_s	file:
+TASK_STATE_MAX	./inc/intertask_interface.c	/^  TASK_STATE_NOT_CONFIGURED, TASK_STATE_STARTING, TASK_STATE_READY, TASK_STATE_ENDED, TASK_STATE_MAX,$/;"	e	enum:task_state_s	file:
+TASK_STATE_NOT_CONFIGURED	./inc/intertask_interface.c	/^  TASK_STATE_NOT_CONFIGURED, TASK_STATE_STARTING, TASK_STATE_READY, TASK_STATE_ENDED, TASK_STATE_MAX,$/;"	e	enum:task_state_s	file:
+TASK_STATE_READY	./inc/intertask_interface.c	/^  TASK_STATE_NOT_CONFIGURED, TASK_STATE_STARTING, TASK_STATE_READY, TASK_STATE_ENDED, TASK_STATE_MAX,$/;"	e	enum:task_state_s	file:
+TASK_STATE_STARTING	./inc/intertask_interface.c	/^  TASK_STATE_NOT_CONFIGURED, TASK_STATE_STARTING, TASK_STATE_READY, TASK_STATE_ENDED, TASK_STATE_MAX,$/;"	e	enum:task_state_s	file:
+TASK_SUB_TASK_ID_LENGTH	./inc/intertask_interface_types.h	56;"	d
+TASK_SUB_TASK_ID_OFFSET	./inc/intertask_interface_types.h	55;"	d
+TASK_THREAD_ID_LENGTH	./inc/intertask_interface_types.h	53;"	d
+TASK_THREAD_ID_OFFSET	./inc/intertask_interface_types.h	52;"	d
+TASK_UNKNOWN	./inc/intertask_interface_types.h	/^  TASK_UNKNOWN = 0,$/;"	e	enum:__anon7
+TEMP_UCS4_BUFFER_SIZE	./bstr/buniutil.c	202;"	d	file:
+THREAD_FIRST	./inc/intertask_interface_types.h	/^  THREAD_FIRST = 1,$/;"	e	enum:__anon5
+THREAD_MAX	./inc/intertask_interface_types.h	/^  THREAD_MAX,$/;"	e	enum:__anon5
+THREAD_NULL	./inc/intertask_interface_types.h	/^  THREAD_NULL = 0,$/;"	e	enum:__anon5
+TIMER_HAS_EXPIRED	./inc/timer_messages_types.h	35;"	d
+TIMER_H_	./inc/timer.h	31;"	d
+TIMER_MESSAGES_TYPES_H_	./inc/timer_messages_types.h	31;"	d
+TIMER_ONE_SHOT	./inc/timer.h	/^  TIMER_ONE_SHOT,$/;"	e	enum:timer_type_s
+TIMER_PERIODIC	./inc/timer.h	/^  TIMER_PERIODIC,$/;"	e	enum:timer_type_s
+TIMER_SEARCH	./inc/timer.c	71;"	d	file:
+TIMER_TYPE_MAX	./inc/timer.h	/^  TIMER_TYPE_MAX,$/;"	e	enum:timer_type_s
+UL_BIT_MASK	./inc/intertask_interface_types.h	43;"	d
+UL_BIT_SHIFT	./inc/intertask_interface_types.h	44;"	d
+UL_BIT_UNSHIFT	./inc/intertask_interface_types.h	45;"	d
+UL_FIELD_EXTRACT	./inc/intertask_interface_types.h	49;"	d
+UL_FIELD_INSERT	./inc/intertask_interface_types.h	48;"	d
+UL_FIELD_MASK	./inc/intertask_interface_types.h	47;"	d
+UNICODE__CODE_POINT__REPLACEMENT_CHARACTER	./bstr/buniutil.c	19;"	d	file:
+UNUSED	./bstr/bstraux.c	30;"	d	file:
+UTF8_UNICODE_UTILITIES	./bstr/utf8util.h	15;"	d
+UU_DECODE_BYTE	./bstr/bstraux.c	500;"	d	file:
+UU_ENCODE_BYTE	./bstr/bstraux.c	720;"	d	file:
+UU_MAX_LINELEN	./bstr/bstraux.c	507;"	d	file:
+VCD_SIGNAL_DUMPER_DUMP_FUNCTION_BY_NAME	./inc/intertask_interface.c	83;"	d	file:
+VCD_SIGNAL_DUMPER_DUMP_FUNCTION_BY_NAME	./inc/memory_pools.c	42;"	d	file:
+VCD_SIGNAL_DUMPER_DUMP_VARIABLE_BY_NAME	./inc/intertask_interface.c	82;"	d	file:
+VCD_SIGNAL_DUMPER_DUMP_VARIABLE_BY_NAME	./inc/memory_pools.c	41;"	d	file:
+VCD_SIGNAL_DUMPER_FUNCTIONS_ITTI_ENQUEUE_MESSAGE	./inc/intertask_interface.c	84;"	d	file:
+VCD_SIGNAL_DUMPER_FUNCTIONS_ITTI_ENQUEUE_MESSAGE	./inc/memory_pools.c	43;"	d	file:
+_ASSERT_FINAL_	./inc/assertions.h	70;"	d
+_ASSERT_FINAL_	./inc/assertions.h	72;"	d
+_Assert_	./inc/assertions.h	59;"	d
+_Assert_Exit_	./inc/assertions.h	40;"	d
+_Assert_SegFault_	./inc/assertions.h	49;"	d
+_CRT_SECURE_NO_WARNINGS	./bstr/bstraux.c	18;"	d	file:
+_CRT_SECURE_NO_WARNINGS	./bstr/bstrlib.c	15;"	d	file:
+_CRT_SECURE_NO_WARNINGS	./bstr/bstrwrap.cpp	15;"	d	file:
+_CRT_SECURE_NO_WARNINGS	./bstr/test.cpp	15;"	d	file:
+_GNU_SOURCE	./inc/intertask_interface.c	30;"	d	file:
+_GNU_SOURCE	./inc/intertask_interface_dump.c	37;"	d	file:
+_ITTI_TYPES_H_	./inc/itti_types.h	36;"	d
+_bDeclTbstrIdx	./bstr/test.cpp	1624;"	d	file:
+all	./inc/memory_pools.c	/^  uint64_t                                all;$/;"	m	union:items_group_positions_u	file:
+alloc	./bstr/bstrwrap.cpp	/^void CBString::alloc (int len) {$/;"	f	class:Bstrlib::CBString
+arg	./inc/timer_messages_types.h	/^  void *arg;$/;"	m	struct:__anon3
+attr	./inc/intertask_interface_dump.c	/^  pthread_attr_t                          attr;$/;"	m	struct:itti_desc_s	file:
+b	./bstr/bstest.c	/^	bstring b;$/;"	m	struct:tagBss	file:
+b	./bstr/bstest.c	/^    bstring b;$/;"	m	struct:sbstr	file:
+b	./bstr/bstrlib.c	/^	bstring b;$/;"	m	struct:genBstrList	file:
+b64ETable	./bstr/bstraux.c	/^static char b64ETable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\/";$/;"	v	file:
+bAscTime	./bstr/bstraux.h	60;"	d
+bAssign	./bstr/bstraux.h	32;"	d
+bBase64Decode	./bstr/bstraux.h	45;"	d
+bBase64DecodeEx	./bstr/bstraux.c	/^bstring bBase64DecodeEx (const_bstring b, int * boolTruncError) {$/;"	f
+bBase64Encode	./bstr/bstraux.c	/^bstring bBase64Encode (const_bstring b) {$/;"	f
+bBlockCopy	./bstr/bstrlib.c	75;"	d	file:
+bCTime	./bstr/bstraux.h	61;"	d
+bCaselessCmp	./bstr/bstraux.h	43;"	d
+bCaselessNCmp	./bstr/bstraux.h	44;"	d
+bCatBlk	./bstr/bstraux.h	37;"	d
+bCatCstr	./bstr/bstraux.h	36;"	d
+bCatStatic	./bstr/bstraux.h	38;"	d
+bDeclTbstr	./bstr/test.cpp	1627;"	d	file:
+bDeclTbstr	./bstr/test.cpp	1629;"	d	file:
+bFill	./bstr/bstraux.c	/^int bFill (bstring b, char c, int len) {$/;"	f
+bGlue3	./bstr/test.cpp	1621;"	d	file:
+bGlue3_aux	./bstr/test.cpp	1620;"	d	file:
+bHead	./bstr/bstraux.c	/^bstring bHead (bstring b, int n) {$/;"	f
+bInsertChrs	./bstr/bstraux.c	/^int bInsertChrs (bstring b, int pos, int len, unsigned char c, unsigned char fill) {$/;"	f
+bJustifyCenter	./bstr/bstraux.c	/^int bJustifyCenter (bstring b, int width, int space) {$/;"	f
+bJustifyLeft	./bstr/bstraux.c	/^int bJustifyLeft (bstring b, int space) {$/;"	f
+bJustifyMargin	./bstr/bstraux.c	/^int bJustifyMargin (bstring b, int width, int space) {$/;"	f
+bJustifyRight	./bstr/bstraux.c	/^int bJustifyRight (bstring b, int width, int space) {$/;"	f
+bLowercase	./bstr/bstraux.h	42;"	d
+bMultiCatCstr	./bstr/test.cpp	1618;"	d	file:
+bMultiCatCstrNeedNULLAsLastArgument	./bstr/test.cpp	/^int bMultiCatCstrNeedNULLAsLastArgument (bstring dst, ...) {$/;"	f
+bMultiConcat	./bstr/test.cpp	1617;"	d	file:
+bMultiConcatNeedNULLAsLastArgument	./bstr/test.cpp	/^int bMultiConcatNeedNULLAsLastArgument (bstring dst, ...) {$/;"	f
+bNetStr2Bstr	./bstr/bstraux.c	/^bstring bNetStr2Bstr (const char * buff) {$/;"	f
+bNgetc	./bstr/bstrlib.h	/^typedef int (*bNgetc) (void *parm);$/;"	t
+bNread	./bstr/bstrlib.h	/^typedef size_t (* bNread) (void *buff, size_t elsize, size_t nelem, void *parm);$/;"	t
+bNwrite	./bstr/bstraux.h	/^typedef int (* bNwrite) (const void * buf, size_t elsize, size_t nelem, void * parm);$/;"	t
+bReplaceAll	./bstr/bstraux.h	40;"	d
+bReplicate	./bstr/bstraux.c	/^int bReplicate (bstring b, int n) {$/;"	f
+bReverse	./bstr/bstraux.c	/^int bReverse (bstring b) {$/;"	f
+bSGMLEncode	./bstr/bstraux.c	/^int bSGMLEncode (bstring b) {$/;"	f
+bSecureDestroy	./bstr/bstraux.h	93;"	d
+bSecureInput	./bstr/bstraux.c	/^bstring bSecureInput (int maxlen, int termchar, bNgetc vgetchar, void * vgcCtx) {$/;"	f
+bSecureWriteProtect	./bstr/bstraux.h	100;"	d
+bSetChar	./bstr/bstraux.c	/^int bSetChar (bstring b, int pos, char c) {$/;"	f
+bSetCstrChar	./bstr/bstraux.c	/^int bSetCstrChar (bstring b, int pos, char c) {$/;"	f
+bStr2NetStr	./bstr/bstraux.c	/^char * bStr2NetStr (const_bstring b) {$/;"	f
+bStrchr	./bstr/bstraux.h	34;"	d
+bStrchrFast	./bstr/bstraux.h	35;"	d
+bStream	./bstr/bstrlib.c	/^struct bStream {$/;"	s	file:
+bStrfTime	./bstr/bstraux.c	/^bstring bStrfTime (const char * fmt, const struct tm * timeptr) {$/;"	f
+bSubs	./bstr/bstraux.h	33;"	d
+bTail	./bstr/bstraux.c	/^bstring bTail (bstring b, int n) {$/;"	f
+bTrunc	./bstr/bstraux.h	39;"	d
+bUppercase	./bstr/bstraux.h	41;"	d
+bUuDecLine	./bstr/bstraux.c	/^static int bUuDecLine (void * parm, int ofs, int len) {$/;"	f	file:
+bUuDecode	./bstr/bstraux.h	46;"	d
+bUuDecodeEx	./bstr/bstraux.c	/^bstring bUuDecodeEx (const_bstring src, int * badlines) {$/;"	f
+bUuEncode	./bstr/bstraux.c	/^bstring bUuEncode (const_bstring src) {$/;"	f
+bUuInOut	./bstr/bstraux.c	/^struct bUuInOut {$/;"	s	file:
+bYDecode	./bstr/bstraux.c	/^bstring bYDecode (const_bstring src) {$/;"	f
+bYEncode	./bstr/bstraux.c	/^bstring bYEncode (const_bstring src) {$/;"	f
+backtrace_handle_signal	./inc/backtrace.c	/^backtrace_handle_signal ($/;"	f
+badBstring1	./bstr/bstest.c	/^struct tagbstring badBstring1 = {8,  4, NULL};$/;"	v	typeref:struct:tagbstring
+badBstring2	./bstr/bstest.c	/^struct tagbstring badBstring2 = {2, -5, (unsigned char *) "bogus"};$/;"	v	typeref:struct:tagbstring
+badBstring3	./bstr/bstest.c	/^struct tagbstring badBstring3 = {2,  5, (unsigned char *) "bogus"};$/;"	v	typeref:struct:tagbstring
+badlines	./bstr/bstraux.c	/^	int * badlines;$/;"	m	struct:bUuInOut	file:
+balloc	./bstr/bstrlib.c	/^int balloc (bstring b, int olen) {$/;"	f
+ballocmin	./bstr/bstrlib.c	/^int ballocmin (bstring b, int len) {$/;"	f
+base	./bstr/testaux.c	/^	bstring base;$/;"	m	struct:vfgetc	file:
+base64DecodeSymbol	./bstr/bstraux.c	/^static int base64DecodeSymbol (unsigned char alpha) {$/;"	f	file:
+bassign	./bstr/bstrlib.c	/^int bassign (bstring a, const_bstring b) {$/;"	f
+bassignStatic	./bstr/bstrlib.h	222;"	d
+bassignblk	./bstr/bstrlib.c	/^int bassignblk (bstring a, const void * s, int len) {$/;"	f
+bassigncstr	./bstr/bstrlib.c	/^int bassigncstr (bstring a, const char * str) {$/;"	f
+bassignformat	./bstr/bstrlib.c	/^int bassignformat (bstring b, const char * fmt, ...) {$/;"	f
+bassigngets	./bstr/bstrlib.c	/^int bassigngets (bstring b, bNgetc getcPtr, void * parm, char terminator) {$/;"	f
+bassignmidstr	./bstr/bstrlib.c	/^int bassignmidstr (bstring a, const_bstring b, int left, int len) {$/;"	f
+bcatStatic	./bstr/bstrlib.h	220;"	d
+bcatblk	./bstr/bstrlib.c	/^int bcatblk (bstring b, const void * s, int len) {$/;"	f
+bcatcstr	./bstr/bstrlib.c	/^int bcatcstr (bstring b, const char * s) {$/;"	f
+bchar	./bstr/bstrlib.h	206;"	d
+bchare	./bstr/bstrlib.h	205;"	d
+bconcat	./bstr/bstrlib.c	/^int bconcat (bstring b0, const_bstring b1) {$/;"	f
+bconchar	./bstr/bstrlib.c	/^int bconchar (bstring b, char c) {$/;"	f
+bcstrfree	./bstr/bstrlib.c	/^int bcstrfree (char * s) {$/;"	f
+bdata	./bstr/bstrlib.h	204;"	d
+bdatae	./bstr/bstrlib.h	203;"	d
+bdataofs	./bstr/bstrlib.h	202;"	d
+bdataofse	./bstr/bstrlib.h	201;"	d
+bdelete	./bstr/bstrlib.c	/^int bdelete (bstring b, int pos, int len) {$/;"	f
+bdestroy	./bstr/bstrlib.c	/^int bdestroy (bstring b) {$/;"	f
+bfindreplace	./bstr/bstrlib.c	/^int bfindreplace (bstring b, const_bstring find, const_bstring repl,$/;"	f
+bfindreplacecaseless	./bstr/bstrlib.c	/^int bfindreplacecaseless (bstring b, const_bstring find, const_bstring repl,$/;"	f
+bformat	./bstr/bstrlib.c	/^bstring bformat (const char * fmt, ...) {$/;"	f
+bformata	./bstr/bstrlib.c	/^int bformata (bstring b, const char * fmt, ...) {$/;"	f
+bfromStatic	./bstr/bstrlib.h	221;"	d
+bfromcstr	./bstr/bstrlib.c	/^bstring bfromcstr (const char * str) {$/;"	f
+bfromcstralloc	./bstr/bstrlib.c	/^bstring bfromcstralloc (int mlen, const char * str) {$/;"	f
+bfromcstrrangealloc	./bstr/bstrlib.c	/^bstring bfromcstrrangealloc (int minl, int maxl, const char* str) {$/;"	f
+bgets	./bstr/bstrlib.c	/^bstring bgets (bNgetc getcPtr, void * parm, char terminator) {$/;"	f
+bgetsa	./bstr/bstrlib.c	/^int bgetsa (bstring b, bNgetc getcPtr, void * parm, char terminator) {$/;"	f
+binchr	./bstr/bstrlib.c	/^int binchr (const_bstring b0, int pos, const_bstring b1) {$/;"	f
+binchrCF	./bstr/bstrlib.c	/^static int binchrCF (const unsigned char * data, int len, int pos,$/;"	f	file:
+binchrr	./bstr/bstrlib.c	/^int binchrr (const_bstring b0, int pos, const_bstring b1) {$/;"	f
+binchrrCF	./bstr/bstrlib.c	/^static int binchrrCF (const unsigned char * data, int pos,$/;"	f	file:
+binsert	./bstr/bstrlib.c	/^int binsert (bstring b1, int pos, const_bstring b2, unsigned char fill) {$/;"	f
+binsertStatic	./bstr/bstrlib.h	223;"	d
+binsertblk	./bstr/bstrlib.c	/^int binsertblk (bstring b, int pos, const void * blk, int len,$/;"	f
+binsertch	./bstr/bstrlib.c	/^int binsertch (bstring b, int pos, int len, unsigned char fill) {$/;"	f
+binstr	./bstr/bstrlib.c	/^int binstr (const_bstring b1, int pos, const_bstring b2) {$/;"	f
+binstrcaseless	./bstr/bstrlib.c	/^int binstrcaseless (const_bstring b1, int pos, const_bstring b2) {$/;"	f
+binstrr	./bstr/bstrlib.c	/^int binstrr (const_bstring b1, int pos, const_bstring b2) {$/;"	f
+binstrrcaseless	./bstr/bstrlib.c	/^int binstrrcaseless (const_bstring b1, int pos, const_bstring b2) {$/;"	f
+biseq	./bstr/bstrlib.c	/^int biseq (const_bstring b0, const_bstring b1) {$/;"	f
+biseqStatic	./bstr/bstrlib.h	225;"	d
+biseqblk	./bstr/bstrlib.c	/^int biseqblk (const_bstring b, const void * blk, int len) {$/;"	f
+biseqcaseless	./bstr/bstrlib.c	/^int biseqcaseless (const_bstring b0, const_bstring b1) {$/;"	f
+biseqcaselessStatic	./bstr/bstrlib.h	227;"	d
+biseqcaselessblk	./bstr/bstrlib.c	/^int biseqcaselessblk (const_bstring b, const void * blk, int len) {$/;"	f
+biseqcstr	./bstr/bstrlib.c	/^int biseqcstr (const_bstring b, const char * s) {$/;"	f
+biseqcstrcaseless	./bstr/bstrlib.c	/^int biseqcstrcaseless (const_bstring b, const char * s) {$/;"	f
+bisstemeqStatic	./bstr/bstrlib.h	226;"	d
+bisstemeqblk	./bstr/bstrlib.c	/^int bisstemeqblk (const_bstring b0, const void * blk, int len) {$/;"	f
+bisstemeqcaselessStatic	./bstr/bstrlib.h	228;"	d
+bisstemeqcaselessblk	./bstr/bstrlib.c	/^int bisstemeqcaselessblk (const_bstring b0, const void * blk, int len) {$/;"	f
+biswriteprotected	./bstr/bstrlib.h	310;"	d
+bjoin	./bstr/bstrlib.c	/^bstring bjoin (const struct bstrList * bl, const_bstring sep) {$/;"	f
+bjoinStatic	./bstr/bstrlib.h	224;"	d
+bjoinblk	./bstr/bstrlib.c	/^bstring bjoinblk (const struct bstrList * bl, const void * blk, int len) {$/;"	f
+bl	./bstr/bstrlib.c	/^	struct bstrList * bl;$/;"	m	struct:genBstrList	typeref:struct:genBstrList::bstrList	file:
+blength	./bstr/bstrlib.h	200;"	d
+blengthe	./bstr/bstrlib.h	199;"	d
+blk2bstr	./bstr/bstrlib.c	/^bstring blk2bstr (const void * blk, int len) {$/;"	f
+blk2tbstr	./bstr/bstrlib.h	237;"	d
+bltrimws	./bstr/bstrlib.c	/^int bltrimws (bstring b) {$/;"	f
+bmid2tbstr	./bstr/bstrlib.h	243;"	d
+bmidstr	./bstr/bstrlib.c	/^bstring bmidstr (const_bstring b, int left, int len) {$/;"	f
+bninchr	./bstr/bstrlib.c	/^int bninchr (const_bstring b0, int pos, const_bstring b1) {$/;"	f
+bninchrr	./bstr/bstrlib.c	/^int bninchrr (const_bstring b0, int pos, const_bstring b1) {$/;"	f
+bpattern	./bstr/bstrlib.c	/^int bpattern (bstring b, int len) {$/;"	f
+bread	./bstr/bstrlib.c	/^bstring bread (bNread readPtr, void * parm) {$/;"	f
+breada	./bstr/bstrlib.c	/^int breada (bstring b, bNread readPtr, void * parm) {$/;"	f
+breplace	./bstr/bstrlib.c	/^int breplace (bstring b1, int pos, int len, const_bstring b2,$/;"	f
+brtrimws	./bstr/bstrlib.c	/^int brtrimws (bstring b) {$/;"	f
+bsFromBstr	./bstr/bstraux.c	/^struct bStream * bsFromBstr (const_bstring b) {$/;"	f
+bsFromBstrRef	./bstr/bstraux.c	/^static struct bStream * bsFromBstrRef (struct tagbstring * t) {$/;"	f	file:
+bsStatic	./bstr/bstrlib.h	211;"	d
+bsStatic	./bstr/bstrlib.h	214;"	d
+bsStaticBlkParms	./bstr/bstrlib.h	218;"	d
+bsStaticMlen	./bstr/bstrlib.h	209;"	d
+bsUuCtx	./bstr/bstraux.c	/^struct bsUuCtx {$/;"	s	file:
+bsUuDecode	./bstr/bstraux.c	/^struct bStream * bsUuDecode (struct bStream * sInp, int * badlines) {$/;"	f
+bsUuDecodePart	./bstr/bstraux.c	/^static size_t bsUuDecodePart (void *buff, size_t elsize, size_t nelem, void *parm) {$/;"	f	file:
+bsafeShouldExit	./bstr/bsafe.c	/^static int bsafeShouldExit = 1;$/;"	v	file:
+bsbufflength	./bstr/bstrlib.c	/^int bsbufflength (struct bStream * s, int sz) {$/;"	f
+bscb	./bstr/bstrlib.c	/^static int bscb (void * parm, int ofs, int len) {$/;"	f	file:
+bsclose	./bstr/bstrlib.c	/^void * bsclose (struct bStream * s) {$/;"	f
+bseof	./bstr/bstrlib.c	/^int bseof (const struct bStream * s) {$/;"	f
+bsetstr	./bstr/bstrlib.c	/^int bsetstr (bstring b0, int pos, const_bstring b1, unsigned char fill) {$/;"	f
+bsopen	./bstr/bstrlib.c	/^struct bStream * bsopen (bNread readPtr, void * parm) {$/;"	f
+bspeek	./bstr/bstrlib.c	/^int bspeek (bstring r, const struct bStream * s) {$/;"	f
+bsplit	./bstr/bstrlib.c	/^struct bstrList * bsplit (const_bstring str, unsigned char splitChar) {$/;"	f
+bsplitcb	./bstr/bstrlib.c	/^int bsplitcb (const_bstring str, unsigned char splitChar, int pos,$/;"	f
+bsplits	./bstr/bstrlib.c	/^struct bstrList * bsplits (const_bstring str, const_bstring splitStr) {$/;"	f
+bsplitscb	./bstr/bstrlib.c	/^int bsplitscb (const_bstring str, const_bstring splitStr, int pos,$/;"	f
+bsplitstr	./bstr/bstrlib.c	/^struct bstrList * bsplitstr (const_bstring str, const_bstring splitStr) {$/;"	f
+bsplitstrcb	./bstr/bstrlib.c	/^int bsplitstrcb (const_bstring str, const_bstring splitStr, int pos,$/;"	f
+bsread	./bstr/bstrlib.c	/^int bsread (bstring r, struct bStream * s, int n) {$/;"	f
+bsreada	./bstr/bstrlib.c	/^int bsreada (bstring r, struct bStream * s, int n) {$/;"	f
+bsreadln	./bstr/bstrlib.c	/^int bsreadln (bstring r, struct bStream * s, char terminator) {$/;"	f
+bsreadlna	./bstr/bstrlib.c	/^int bsreadlna (bstring r, struct bStream * s, char terminator) {$/;"	f
+bsreadlns	./bstr/bstrlib.c	/^int bsreadlns (bstring r, struct bStream * s, const_bstring term) {$/;"	f
+bsreadlnsa	./bstr/bstrlib.c	/^int bsreadlnsa (bstring r, struct bStream * s, const_bstring term) {$/;"	f
+bssplitscb	./bstr/bstrlib.c	/^int bssplitscb (struct bStream * s, const_bstring splitStr,$/;"	f
+bssplitstrcb	./bstr/bstrlib.c	/^int bssplitstrcb (struct bStream * s, const_bstring splitStr,$/;"	f
+bstr2cstr	./bstr/bstrlib.c	/^char * bstr2cstr (const_bstring b, char z) {$/;"	f
+bstrDeclare	./bstr/bstraux.h	27;"	d
+bstrFree	./bstr/bstraux.h	28;"	d
+bstrList	./bstr/bstrlib.h	/^struct bstrList {$/;"	s
+bstrListAlloc	./bstr/bstrlib.c	/^int bstrListAlloc (struct bstrList * sl, int msz) {$/;"	f
+bstrListAllocMin	./bstr/bstrlib.c	/^int bstrListAllocMin (struct bstrList * sl, int msz) {$/;"	f
+bstrListCreate	./bstr/bstrlib.c	/^struct bstrList * bstrListCreate (void) {$/;"	f
+bstrListDestroy	./bstr/bstrlib.c	/^int bstrListDestroy (struct bstrList * sl) {$/;"	f
+bstr__alloc	./bstr/bstrlib.c	/^void* bstr__alloc (size_t sz) {$/;"	f
+bstr__alloc	./bstr/bstrlib.c	41;"	d	file:
+bstr__alloc	./bstr/bstrwrap.cpp	30;"	d	file:
+bstr__free	./bstr/bstrlib.c	46;"	d	file:
+bstr__free	./bstr/bstrwrap.cpp	34;"	d	file:
+bstr__memchr	./bstr/bstrlib.c	70;"	d	file:
+bstr__memchr	./bstr/bstrwrap.cpp	58;"	d	file:
+bstr__memcmp	./bstr/bstrlib.c	66;"	d	file:
+bstr__memcmp	./bstr/bstrwrap.cpp	54;"	d	file:
+bstr__memcpy	./bstr/bstrlib.c	54;"	d	file:
+bstr__memcpy	./bstr/bstrwrap.cpp	42;"	d	file:
+bstr__memmove	./bstr/bstrlib.c	58;"	d	file:
+bstr__memmove	./bstr/bstrwrap.cpp	46;"	d	file:
+bstr__memset	./bstr/bstrlib.c	62;"	d	file:
+bstr__memset	./bstr/bstrwrap.cpp	50;"	d	file:
+bstr__realloc	./bstr/bstrlib.c	50;"	d	file:
+bstr__realloc	./bstr/bstrwrap.cpp	38;"	d	file:
+bstrchr	./bstr/bstrlib.h	95;"	d
+bstrchrp	./bstr/bstrlib.c	/^int bstrchrp (const_bstring b, int c, int pos) {$/;"	f
+bstrcmp	./bstr/bstrlib.c	/^int bstrcmp (const_bstring b0, const_bstring b1) {$/;"	f
+bstrcpy	./bstr/bstrlib.c	/^bstring bstrcpy (const_bstring b) {$/;"	f
+bstricmp	./bstr/bstrlib.c	/^int bstricmp (const_bstring b0, const_bstring b1) {$/;"	f
+bstring	./bstr/bstrlib.h	/^typedef struct tagbstring * bstring;$/;"	t	typeref:struct:tagbstring
+bstringThrow	./bstr/bstrwrap.h	117;"	d
+bstrncmp	./bstr/bstrlib.c	/^int bstrncmp (const_bstring b0, const_bstring b1, int n) {$/;"	f
+bstrnicmp	./bstr/bstrlib.c	/^int bstrnicmp (const_bstring b0, const_bstring b1, int n) {$/;"	f
+bstrrchr	./bstr/bstrlib.h	96;"	d
+bstrrchrp	./bstr/bstrlib.c	/^int bstrrchrp (const_bstring b, int c, int pos) {$/;"	f
+bsunread	./bstr/bstrlib.c	/^int bsunread (struct bStream * s, const_bstring b) {$/;"	f
+btfromblk	./bstr/bstrlib.h	242;"	d
+btfromblkltrimws	./bstr/bstrlib.h	267;"	d
+btfromblkrtrimws	./bstr/bstrlib.h	279;"	d
+btfromblktrimws	./bstr/bstrlib.h	291;"	d
+btfromcstr	./bstr/bstrlib.h	232;"	d
+btolower	./bstr/bstrlib.c	/^int btolower (bstring b) {$/;"	f
+btoupper	./bstr/bstrlib.c	/^int btoupper (bstring b) {$/;"	f
+btrimws	./bstr/bstrlib.c	/^int btrimws (bstring b) {$/;"	f
+btrunc	./bstr/bstrlib.c	/^int btrunc (bstring b, int n) {$/;"	f
+buAppendBlkUTF16	./bstr/buniutil.c	/^int buAppendBlkUTF16 (bstring bu, const cpUcs2* utf16, int len, cpUcs2* bom, cpUcs4 errCh) {$/;"	f
+buAppendBlkUcs4	./bstr/buniutil.c	/^int buAppendBlkUcs4 (bstring b, const cpUcs4* bu, int len, cpUcs4 errCh) {$/;"	f
+buGetBlkUTF16	./bstr/buniutil.c	/^int buGetBlkUTF16 (\/* @out *\/ cpUcs2* ucs2, int len, cpUcs4 errCh, const_bstring bu, int pos) {$/;"	f
+buIsUTF8Content	./bstr/buniutil.c	/^int buIsUTF8Content (const_bstring bu) {$/;"	f
+buff	./bstr/bstraux.c	/^    bstring buff;    \/* Buffer for underwrites                   *\/$/;"	m	struct:bwriteStream	file:
+buff	./bstr/bstrlib.c	/^	bstring buff;		\/* Buffer for over-reads *\/$/;"	m	struct:bStream	file:
+buffLengthGet	./bstr/bstrwrap.cpp	/^int CBStream::buffLengthGet () {$/;"	f	class:Bstrlib::CBStream
+buffLengthSet	./bstr/bstrwrap.cpp	/^int CBStream::buffLengthSet (int sz) {$/;"	f	class:Bstrlib::CBStream
+buildCharField	./bstr/bstrlib.c	/^static int buildCharField (struct charField * cf, const_bstring b) {$/;"	f	file:
+bvcformata	./bstr/bstrlib.c	/^int bvcformata (bstring b, int count, const char * fmt, va_list arg) {$/;"	f
+bvformata	./bstr/bstrlib.h	141;"	d
+bwriteStream	./bstr/bstraux.c	/^struct bwriteStream {$/;"	s	file:
+bwriteallow	./bstr/bstrlib.h	309;"	d
+bwriteprotect	./bstr/bstrlib.h	308;"	d
+bwsBuffLength	./bstr/bstraux.c	/^int bwsBuffLength (struct bwriteStream * ws, int sz) {$/;"	f
+bwsClose	./bstr/bstraux.c	/^void * bwsClose (struct bwriteStream * ws) {$/;"	f
+bwsIsEOF	./bstr/bstraux.c	/^int bwsIsEOF (const struct bwriteStream * ws) {$/;"	f
+bwsOpen	./bstr/bstraux.c	/^struct bwriteStream * bwsOpen (bNwrite writeFn, void * parm) {$/;"	f
+bwsWriteBlk	./bstr/bstraux.c	/^int bwsWriteBlk (struct bwriteStream * ws, void * blk, int len) {$/;"	f
+bwsWriteBstr	./bstr/bstraux.c	/^int bwsWriteBstr (struct bwriteStream * ws, const_bstring b) {$/;"	f
+bwsWriteFlush	./bstr/bstraux.c	/^int bwsWriteFlush (struct bwriteStream * ws) {$/;"	f
+caselessCmp	./bstr/bstrwrap.cpp	/^int CBString::caselessCmp (const CBString& b) const {$/;"	f	class:Bstrlib::CBString
+caselessEqual	./bstr/bstrwrap.cpp	/^int CBString::caselessEqual (const CBString& b) const {$/;"	f	class:Bstrlib::CBString
+caselessfind	./bstr/bstrwrap.cpp	/^int CBString::caselessfind (const CBString& b, int pos) const {$/;"	f	class:Bstrlib::CBString
+caselessfind	./bstr/bstrwrap.cpp	/^int CBString::caselessfind (const char * b, int pos) const {$/;"	f	class:Bstrlib::CBString
+caselessreversefind	./bstr/bstrwrap.cpp	/^int CBString::caselessreversefind (const CBString& b, int pos) const {$/;"	f	class:Bstrlib::CBString
+caselessreversefind	./bstr/bstrwrap.cpp	/^int CBString::caselessreversefind (const char * b, int pos) const {$/;"	f	class:Bstrlib::CBString
+charField	./bstr/bstrlib.c	/^struct charField { LONG_TYPE content[CFCLEN]; };$/;"	s	file:
+charField	./bstr/bstrlib.c	/^struct charField { unsigned char content[CFCLEN]; };$/;"	s	file:
+character	./bstr/bstrwrap.h	/^	inline CBCharWriteProtected character (int i) {$/;"	f	struct:Bstrlib::CBString
+character	./bstr/bstrwrap.h	/^	inline unsigned char character (int i) const {$/;"	f	struct:Bstrlib::CBString
+const_bstring	./bstr/bstrlib.h	/^typedef const struct tagbstring * const_bstring;$/;"	t	typeref:struct:tagbstring
+content	./bstr/bstrlib.c	/^struct charField { LONG_TYPE content[CFCLEN]; };$/;"	m	struct:charField	file:
+content	./bstr/bstrlib.c	/^struct charField { unsigned char content[CFCLEN]; };$/;"	m	struct:charField	file:
+contents	./bstr/bstest.c	/^	bstring contents;$/;"	m	struct:emuFile	file:
+cpUcs2	./bstr/utf8util.h	/^typedef unsigned char	cpUcs2;$/;"	t
+cpUcs2	./bstr/utf8util.h	/^typedef unsigned int	cpUcs2;$/;"	t
+cpUcs2	./bstr/utf8util.h	/^typedef unsigned short	cpUcs2;$/;"	t
+cpUcs4	./bstr/utf8util.h	/^typedef int 			cpUcs4;$/;"	t
+cpUcs4	./bstr/utf8util.h	/^typedef long			cpUcs4;$/;"	t
+created_tasks	./inc/intertask_interface.c	/^  volatile uint32_t                       created_tasks;$/;"	m	struct:itti_desc_s	file:
+cstr2bstr	./bstr/bstrlib.h	40;"	d
+cstr2tbstr	./bstr/bstrlib.h	231;"	d
+data	./bstr/bstrlib.h	/^	unsigned char * data;$/;"	m	struct:tagbstring
+data	./bstr/utf8util.h	/^	unsigned char*	data;$/;"	m	struct:utf8Iterator
+data	./inc/intertask_interface_dump.c	/^  MessageDef                             *data;$/;"	m	struct:itti_dump_queue_item_s	file:
+data	./inc/memory_pools.c	/^  memory_pool_data_t                      data[0];$/;"	m	struct:memory_pool_item_s	file:
+data_size	./inc/intertask_interface_dump.c	/^  uint32_t                                data_size;$/;"	m	struct:itti_dump_queue_item_s	file:
+demo_receiver_thread	./demo.c	/^void * demo_receiver_thread(__attribute__((unused)) void *args)$/;"	f
+destinationTaskId	./inc/intertask_interface_types.h	/^  task_id_t  destinationTaskId;   \/**< ID of the destination task *\/$/;"	m	struct:MessageHeader_s
+display_backtrace	./inc/backtrace.c	/^display_backtrace ($/;"	f
+downcase	./bstr/bstrlib.c	599;"	d	file:
+dst	./bstr/bstraux.c	/^	bstring src, dst;$/;"	m	struct:bUuInOut	file:
+dumpBstring	./bstr/bstest.c	/^static char * dumpBstring (const struct tagbstring * b) {$/;"	f	file:
+dumpBstring	./bstr/test.cpp	/^const char * dumpBstring (const bstring b) {$/;"	f
+dumpCstring	./bstr/bstest.c	/^static char* dumpCstring (const char* s) {$/;"	f	file:
+dumpOut	./bstr/bstest.c	/^static bstring dumpOut[16];$/;"	v	file:
+dumpOut	./bstr/test.cpp	/^static bstring dumpOut[dumpOutQty];$/;"	v	file:
+dumpOutQty	./bstr/test.cpp	26;"	d	file:
+dump_file	./inc/intertask_interface_dump.c	/^static FILE                            *dump_file = NULL;$/;"	v	file:
+emptyBstring	./bstr/bstest.c	/^struct tagbstring emptyBstring = bsStatic ("");$/;"	v	typeref:struct:tagbstring
+emuFile	./bstr/bstest.c	/^struct emuFile {$/;"	s	file:
+end	./inc/memory_pools.c	/^  memory_pool_item_end_t                  end;$/;"	m	struct:memory_pool_item_s	file:
+endSwap	./bstr/buniutil.c	201;"	d	file:
+end_mark	./inc/memory_pools.c	/^  pool_item_end_mark_t                    end_mark;$/;"	m	struct:memory_pool_item_end_s	file:
+entry	./bstr/bstrlib.h	/^    bstring * entry;$/;"	m	struct:bstrList
+eof	./bstr/bstrwrap.cpp	/^int CBStream::eof () const {$/;"	f	class:Bstrlib::CBStream
+epoll_fd	./inc/intertask_interface.c	/^  int                                     epoll_fd;$/;"	m	struct:thread_desc_s	file:
+epoll_nb_events	./inc/intertask_interface.c	/^  int                                     epoll_nb_events;$/;"	m	struct:thread_desc_s	file:
+error	./bstr/utf8util.h	/^	int           	error;$/;"	m	struct:utf8Iterator
+event_fd	./inc/intertask_interface_dump.c	/^  int                                     event_fd;$/;"	m	struct:itti_desc_s	file:
+events	./inc/intertask_interface.c	/^  struct epoll_event                     *events;$/;"	m	struct:thread_desc_s	typeref:struct:thread_desc_s::epoll_event	file:
+exvsnprintf	./bstr/bstrlib.c	2923;"	d	file:
+exvsnprintf	./bstr/bstrlib.c	2928;"	d	file:
+exvsnprintf	./bstr/bstrlib.c	2938;"	d	file:
+exvsnprintf	./bstr/bstrwrap.cpp	535;"	d	file:
+exvsnprintf	./bstr/bstrwrap.cpp	540;"	d	file:
+exvsnprintf	./bstr/bstrwrap.cpp	552;"	d	file:
+fill	./bstr/bstrwrap.cpp	/^void CBString::fill (int len, unsigned char cfill) {$/;"	f	class:Bstrlib::CBString
+find	./bstr/bstrwrap.cpp	/^int CBString::find (char c, int pos) const {$/;"	f	class:Bstrlib::CBString
+find	./bstr/bstrwrap.cpp	/^int CBString::find (const CBString& b, int pos) const {$/;"	f	class:Bstrlib::CBString
+find	./bstr/bstrwrap.cpp	/^int CBString::find (const char * b, int pos) const {$/;"	f	class:Bstrlib::CBString
+findchr	./bstr/bstrwrap.cpp	/^int CBString::findchr (const CBString& b, int pos) const {$/;"	f	class:Bstrlib::CBString
+findchr	./bstr/bstrwrap.cpp	/^int CBString::findchr (const char * s, int pos) const {$/;"	f	class:Bstrlib::CBString
+findreplace	./bstr/bstrwrap.cpp	/^void CBString::findreplace (const CBString& sfind, const CBString& repl, int pos) {$/;"	f	class:Bstrlib::CBString
+findreplace	./bstr/bstrwrap.cpp	/^void CBString::findreplace (const CBString& sfind, const char * repl, int pos) {$/;"	f	class:Bstrlib::CBString
+findreplace	./bstr/bstrwrap.cpp	/^void CBString::findreplace (const char * sfind, const CBString& repl, int pos) {$/;"	f	class:Bstrlib::CBString
+findreplace	./bstr/bstrwrap.cpp	/^void CBString::findreplace (const char * sfind, const char * repl, int pos) {$/;"	f	class:Bstrlib::CBString
+findreplacecaseless	./bstr/bstrwrap.cpp	/^void CBString::findreplacecaseless (const CBString& sfind, const CBString& repl, int pos) {$/;"	f	class:Bstrlib::CBString
+findreplacecaseless	./bstr/bstrwrap.cpp	/^void CBString::findreplacecaseless (const CBString& sfind, const char * repl, int pos) {$/;"	f	class:Bstrlib::CBString
+findreplacecaseless	./bstr/bstrwrap.cpp	/^void CBString::findreplacecaseless (const char * sfind, const CBString& repl, int pos) {$/;"	f	class:Bstrlib::CBString
+findreplacecaseless	./bstr/bstrwrap.cpp	/^void CBString::findreplacecaseless (const char * sfind, const char * repl, int pos) {$/;"	f	class:Bstrlib::CBString
+findreplaceengine	./bstr/bstrlib.c	/^static int findreplaceengine (bstring b, const_bstring find,$/;"	f	file:
+first	./bstr/bstest.c	/^	int first;$/;"	m	struct:tagBss	file:
+format	./bstr/bstrwrap.cpp	/^void CBString::format (const char * fmt, ...) {$/;"	f	class:Bstrlib::CBString
+formata	./bstr/bstrwrap.cpp	/^void CBString::formata (const char * fmt, ...) {$/;"	f	class:Bstrlib::CBString
+genBstrList	./bstr/bstrlib.c	/^struct genBstrList {$/;"	s	file:
+get	./inc/memory_pools.c	/^    items_group_position_t                  get;$/;"	m	struct:items_group_positions_u::__anon11	file:
+getline	./bstr/bstrwrap.cpp	/^std::istream& getline (std::istream& sin, CBString& b, char terminator) {$/;"	f	namespace:Bstrlib
+gets	./bstr/bsafe.c	/^char * (gets) (char * buf) {$/;"	f
+gets	./bstr/bstrwrap.cpp	/^int CBString::gets (bNgetc getcPtr, void * parm, char terminator) {$/;"	f	class:Bstrlib::CBString
+id	./inc/intertask_interface.h	/^  task_id_t id;$/;"	m	struct:message_info_s
+idx	./bstr/bstrwrap.h	/^	unsigned int idx;$/;"	m	class:Bstrlib::CBCharWriteProtected
+incorrectBstring	./bstr/bstest.c	/^static int incorrectBstring (const struct tagbstring * b) {$/;"	f	file:
+ind	./inc/memory_pools.c	/^  } ind;$/;"	m	union:items_group_positions_u	typeref:struct:items_group_positions_u::__anon11	file:
+indexes	./inc/memory_pools.c	/^  volatile items_group_index_t           *indexes;$/;"	m	struct:items_group_s	file:
+info	./inc/memory_pools.c	/^  uint16_t                                info[MEMORY_POOL_ITEM_INFO_NUMBER];$/;"	m	struct:memory_pool_item_start_s	file:
+insert	./bstr/bstrwrap.cpp	/^void CBString::insert (int pos, const CBString& b, unsigned char cfill) {$/;"	f	class:Bstrlib::CBString
+insert	./bstr/bstrwrap.cpp	/^void CBString::insert (int pos, const char * s, unsigned char cfill) {$/;"	f	class:Bstrlib::CBString
+insertchrs	./bstr/bstrwrap.cpp	/^void CBString::insertchrs (int pos, int len, unsigned char cfill) {$/;"	f	class:Bstrlib::CBString
+instance	./inc/intertask_interface_types.h	/^  instance_t instance;            \/**< Task instance for virtualization *\/$/;"	m	struct:MessageHeader_s
+instance	./inc/timer.c	/^  int32_t                                 instance;     \/\/\/< Instance of the task which has requested the timer$/;"	m	struct:timer_elm_s	file:
+instance_t	./inc/itti_types.h	/^typedef uint16_t instance_t;$/;"	t
+instr_fnptr	./bstr/bstrlib.c	/^typedef int (*instr_fnptr) (const_bstring s1, int pos, const_bstring s2);$/;"	t	file:
+internal_bwswriteout	./bstr/bstraux.c	1043;"	d	file:
+invertCharField	./bstr/bstrlib.c	/^static void invertCharField (struct charField * cf) {$/;"	f	file:
+io	./bstr/bstraux.c	/^	struct bUuInOut io;$/;"	m	struct:bsUuCtx	typeref:struct:bsUuCtx::bUuInOut	file:
+isEOF	./bstr/bstraux.c	/^    int isEOF;       \/* track stream's EOF state                 *\/$/;"	m	struct:bwriteStream	file:
+isEOF	./bstr/bstrlib.c	/^	int isEOF;			\/* track file's EOF state *\/$/;"	m	struct:bStream	file:
+isLegalUnicodeCodePoint	./bstr/utf8util.c	26;"	d	file:
+isLegalUnicodeCodePoint	./bstr/utf8util.h	41;"	d
+istreamGetc	./bstr/bstrwrap.cpp	/^static int istreamGetc (void * parm) {$/;"	f	namespace:Bstrlib
+istreamGets	./bstr/bstrwrap.cpp	/^static int istreamGets (void * parm) {$/;"	f	namespace:Bstrlib
+iswriteprotected	./bstr/bstrwrap.h	/^	inline bool iswriteprotected () const { return mlen <= 0; }$/;"	f	struct:Bstrlib::CBString
+item_data_number	./inc/memory_pools.c	/^  uint32_t                                item_data_number;$/;"	m	struct:memory_pool_s	file:
+item_status	./inc/memory_pools.c	/^  item_status_t                           item_status;$/;"	m	struct:memory_pool_item_start_s	file:
+item_status_t	./inc/memory_pools.c	/^typedef uint8_t                         item_status_t;$/;"	t	file:
+items	./inc/memory_pools.c	/^  memory_pool_item_t                     *items;$/;"	m	struct:memory_pool_s	file:
+items_group_free	./inc/memory_pools.c	/^  items_group_t                           items_group_free;$/;"	m	struct:memory_pool_s	file:
+items_group_free_items	./inc/memory_pools.c	/^items_group_free_items ($/;"	f	file:
+items_group_get_free_item	./inc/memory_pools.c	/^items_group_get_free_item ($/;"	f	file:
+items_group_index_t	./inc/memory_pools.c	/^typedef int32_t                         items_group_index_t;$/;"	t	file:
+items_group_number_items	./inc/memory_pools.c	/^items_group_number_items ($/;"	f	file:
+items_group_position_t	./inc/memory_pools.c	/^typedef int32_t                         items_group_position_t;$/;"	t	file:
+items_group_positions_t	./inc/memory_pools.c	/^} items_group_positions_t;$/;"	t	typeref:union:items_group_positions_u	file:
+items_group_positions_u	./inc/memory_pools.c	/^typedef union items_group_positions_u {$/;"	u	file:
+items_group_put_free_item	./inc/memory_pools.c	/^items_group_put_free_item ($/;"	f	file:
+items_group_s	./inc/memory_pools.c	/^typedef struct items_group_s {$/;"	s	file:
+items_group_t	./inc/memory_pools.c	/^} items_group_t;$/;"	t	typeref:struct:items_group_s	file:
+ittiMsg	./inc/intertask_interface_types.h	/^  msg_t         ittiMsg; \/**< Union of payloads as defined in x_messages_def.h headers *\/$/;"	m	struct:MessageDef_s
+ittiMsgHeader	./inc/intertask_interface_types.h	/^  MessageHeader ittiMsgHeader; \/**< Message header *\/$/;"	m	struct:MessageDef_s
+ittiMsgSize	./inc/intertask_interface_types.h	/^  MessageHeaderSize ittiMsgSize;         \/**< Message size (not including header size) *\/$/;"	m	struct:MessageHeader_s
+itti_acceptor_thread	./inc/intertask_interface_dump.c	/^  pthread_t                               itti_acceptor_thread;$/;"	m	struct:itti_desc_s	file:
+itti_alloc_new_message	./inc/intertask_interface.c	/^itti_alloc_new_message ($/;"	f
+itti_alloc_new_message_sized	./inc/intertask_interface.c	/^itti_alloc_new_message_sized ($/;"	f
+itti_client_desc_t	./inc/intertask_interface_dump.c	/^} itti_client_desc_t;$/;"	t	typeref:struct:__anon8	file:
+itti_clients	./inc/intertask_interface_dump.c	/^  itti_client_desc_t                      itti_clients[ITTI_DUMP_MAX_CON];$/;"	m	struct:itti_desc_s	file:
+itti_create_task	./inc/intertask_interface.c	/^itti_create_task ($/;"	f
+itti_debug	./inc/intertask_interface.c	/^const int                               itti_debug = ITTI_DEBUG_ISSUES | ITTI_DEBUG_MP_STATISTICS;$/;"	v
+itti_desc	./inc/intertask_interface.c	/^static itti_desc_t                      itti_desc;$/;"	v	file:
+itti_desc_s	./inc/intertask_interface.c	/^typedef struct itti_desc_s {$/;"	s	file:
+itti_desc_s	./inc/intertask_interface_dump.c	/^typedef struct itti_desc_s {$/;"	s	file:
+itti_desc_t	./inc/intertask_interface.c	/^} itti_desc_t;$/;"	t	typeref:struct:itti_desc_s	file:
+itti_desc_t	./inc/intertask_interface_dump.c	/^} itti_desc_t;$/;"	t	typeref:struct:itti_desc_s	file:
+itti_dump_debug	./inc/intertask_interface_dump.c	/^static const int                        itti_dump_debug = 0;    \/\/ 0x8 | 0x4 | 0x2;$/;"	v	file:
+itti_dump_enqueue_message	./inc/intertask_interface_dump.c	/^itti_dump_enqueue_message ($/;"	f	file:
+itti_dump_exit	./inc/intertask_interface_dump.c	/^itti_dump_exit ($/;"	f
+itti_dump_flush_ring_buffer	./inc/intertask_interface_dump.c	/^itti_dump_flush_ring_buffer ($/;"	f	file:
+itti_dump_fwrite_message	./inc/intertask_interface_dump.c	/^itti_dump_fwrite_message ($/;"	f	file:
+itti_dump_handle_new_connection	./inc/intertask_interface_dump.c	/^itti_dump_handle_new_connection ($/;"	f	file:
+itti_dump_init	./inc/intertask_interface_dump.c	/^itti_dump_init ($/;"	f
+itti_dump_message_t	./inc/intertask_interface_dump.c	/^} itti_dump_message_t;$/;"	t	typeref:struct:__anon9	file:
+itti_dump_message_type_end	./inc/intertask_interface_dump.c	/^static const itti_message_types_t       itti_dump_message_type_end = ITTI_DUMP_MESSAGE_TYPE_END;$/;"	v	file:
+itti_dump_queue	./inc/intertask_interface_dump.c	/^static itti_desc_t                      itti_dump_queue;$/;"	v	file:
+itti_dump_queue_item_s	./inc/intertask_interface_dump.c	/^typedef struct itti_dump_queue_item_s {$/;"	s	file:
+itti_dump_queue_item_t	./inc/intertask_interface_dump.c	/^} itti_dump_queue_item_t;$/;"	t	typeref:struct:itti_dump_queue_item_s	file:
+itti_dump_queue_message	./inc/intertask_interface_dump.c	/^itti_dump_queue_message ($/;"	f
+itti_dump_running	./inc/intertask_interface_dump.c	/^static int                              itti_dump_running = 1;$/;"	v	file:
+itti_dump_send_message	./inc/intertask_interface_dump.c	/^itti_dump_send_message ($/;"	f	file:
+itti_dump_send_xml_definition	./inc/intertask_interface_dump.c	/^itti_dump_send_xml_definition ($/;"	f	file:
+itti_dump_socket	./inc/intertask_interface_dump.c	/^itti_dump_socket ($/;"	f	file:
+itti_dump_socket_exit	./inc/intertask_interface_dump.c	/^itti_dump_socket_exit ($/;"	f	file:
+itti_dump_thread_use_ring_buffer	./inc/intertask_interface_dump.c	/^itti_dump_thread_use_ring_buffer ($/;"	f
+itti_dump_user_data_delete_function	./inc/intertask_interface_dump.c	/^itti_dump_user_data_delete_function ($/;"	f	file:
+itti_dump_xml_definition_end	./inc/intertask_interface_dump.c	/^static const itti_message_types_t       itti_dump_xml_definition_end = ITTI_DUMP_XML_DEFINITION_END;$/;"	v	file:
+itti_exit_task	./inc/intertask_interface.c	/^itti_exit_task ($/;"	f
+itti_free	./inc/intertask_interface.c	/^itti_free ($/;"	f
+itti_get_current_task_id	./inc/intertask_interface.c	/^itti_get_current_task_id ($/;"	f	file:
+itti_get_events	./inc/intertask_interface.c	/^itti_get_events ($/;"	f
+itti_get_message_name	./inc/intertask_interface.c	/^itti_get_message_name ($/;"	f
+itti_get_message_priority	./inc/intertask_interface.c	/^itti_get_message_priority ($/;"	f	file:
+itti_get_task_name	./inc/intertask_interface.c	/^itti_get_task_name ($/;"	f
+itti_increment_message_number	./inc/intertask_interface.c	/^itti_increment_message_number ($/;"	f	file:
+itti_init	./inc/intertask_interface.c	/^itti_init ($/;"	f
+itti_listen_socket	./inc/intertask_interface_dump.c	/^  int                                     itti_listen_socket;$/;"	m	struct:itti_desc_s	file:
+itti_lte_time_s	./inc/intertask_interface_types.h	/^typedef struct itti_lte_time_s {$/;"	s
+itti_lte_time_t	./inc/intertask_interface_types.h	/^} itti_lte_time_t;$/;"	t	typeref:struct:itti_lte_time_s
+itti_malloc	./inc/intertask_interface.c	/^itti_malloc ($/;"	f
+itti_mark_task_ready	./inc/intertask_interface.c	/^itti_mark_task_ready ($/;"	f
+itti_message_queue	./inc/intertask_interface_dump.c	/^  struct lfds611_ringbuffer_state        *itti_message_queue;$/;"	m	struct:itti_desc_s	typeref:struct:itti_desc_s::lfds611_ringbuffer_state	file:
+itti_message_types_e	./inc/itti_types.h	/^enum itti_message_types_e {$/;"	g
+itti_message_types_t	./inc/itti_types.h	/^typedef uint32_t itti_message_types_t;$/;"	t
+itti_poll_msg	./inc/intertask_interface.c	/^itti_poll_msg ($/;"	f
+itti_receive_msg	./inc/intertask_interface.c	/^itti_receive_msg ($/;"	f
+itti_receive_msg_internal_event_fd	./inc/intertask_interface.c	/^itti_receive_msg_internal_event_fd ($/;"	f	file:
+itti_send_broadcast_message	./inc/intertask_interface.c	/^itti_send_broadcast_message ($/;"	f
+itti_send_msg_to_task	./inc/intertask_interface.c	/^itti_send_msg_to_task ($/;"	f
+itti_send_terminate_message	./inc/intertask_interface.c	/^itti_send_terminate_message ($/;"	f
+itti_set_task_real_time	./inc/intertask_interface.c	/^itti_set_task_real_time ($/;"	f
+itti_signal_header_t	./inc/itti_types.h	/^} itti_signal_header_t;$/;"	t	typeref:struct:__anon2
+itti_socket_header_t	./inc/itti_types.h	/^} itti_socket_header_t;$/;"	t	typeref:struct:__anon1
+itti_statistic_message_t	./inc/intertask_interface_dump.c	/^} itti_statistic_message_t;$/;"	t	typeref:struct:__anon10	file:
+itti_subscribe_event_fd	./inc/intertask_interface.c	/^itti_subscribe_event_fd ($/;"	f
+itti_terminate_tasks	./inc/intertask_interface.c	/^itti_terminate_tasks ($/;"	f
+itti_unsubscribe_event_fd	./inc/intertask_interface.c	/^itti_unsubscribe_event_fd ($/;"	f
+itti_update_lte_time	./inc/intertask_interface.c	/^itti_update_lte_time ($/;"	f
+itti_wait_ready	./inc/intertask_interface.c	/^itti_wait_ready ($/;"	f
+itti_wait_tasks_end	./inc/intertask_interface.c	/^itti_wait_tasks_end ($/;"	f
+join	./bstr/bstrwrap.cpp	/^void CBString::join (const struct CBStringList& l) {$/;"	f	class:Bstrlib::CBString
+join	./bstr/bstrwrap.cpp	/^void CBString::join (const struct CBStringList& l, char sep) {$/;"	f	class:Bstrlib::CBString
+join	./bstr/bstrwrap.cpp	/^void CBString::join (const struct CBStringList& l, const CBString& sep) {$/;"	f	class:Bstrlib::CBString
+join	./bstr/bstrwrap.cpp	/^void CBString::join (const struct CBStringList& l, unsigned char sep) {$/;"	f	class:Bstrlib::CBString
+last_message_number	./inc/intertask_interface_dump.c	/^  uint32_t                                last_message_number;$/;"	m	struct:__anon8	file:
+length	./bstr/bstrwrap.h	/^	inline int length () const {return slen;}$/;"	f	struct:Bstrlib::CBString
+longBstring	./bstr/bstest.c	/^struct tagbstring longBstring  = bsStatic ("This is a bogus but reasonably long string.  Just long enough to cause some mallocing.");$/;"	v	typeref:struct:tagbstring
+lte_time	./inc/intertask_interface.c	/^  itti_lte_time_t                         lte_time;$/;"	m	struct:itti_desc_s	file:
+lte_time	./inc/intertask_interface_types.h	/^  itti_lte_time_t lte_time;       \/**< Reference LTE time *\/$/;"	m	struct:MessageHeader_s
+ltrim	./bstr/bstrwrap.cpp	/^void CBString::ltrim (const CBString& b) {$/;"	f	class:Bstrlib::CBString
+m_s	./bstr/bstrwrap.h	/^	struct bStream * m_s;$/;"	m	struct:Bstrlib::CBStream	typeref:struct:Bstrlib::CBStream::bStream
+main	./bstr/bstest.c	/^int main (int argc, char * argv[]) {$/;"	f
+main	./bstr/test.cpp	/^int main () {$/;"	f
+main	./bstr/testaux.c	/^int main () {$/;"	f
+main	./demo.c	/^int main()$/;"	f
+maxBuffSz	./bstr/bstrlib.c	/^	int maxBuffSz;$/;"	m	struct:bStream	file:
+memory_pool_data_t	./inc/memory_pools.c	/^typedef uint32_t                        memory_pool_data_t;$/;"	t	file:
+memory_pool_item_end_s	./inc/memory_pools.c	/^typedef struct memory_pool_item_end_s {$/;"	s	file:
+memory_pool_item_end_t	./inc/memory_pools.c	/^} memory_pool_item_end_t;$/;"	t	typeref:struct:memory_pool_item_end_s	file:
+memory_pool_item_from_handler	./inc/memory_pools.c	/^memory_pool_item_from_handler ($/;"	f	file:
+memory_pool_item_from_index	./inc/memory_pools.c	/^memory_pool_item_from_index ($/;"	f	file:
+memory_pool_item_handle_t	./inc/memory_pools.h	/^typedef void * memory_pool_item_handle_t;$/;"	t
+memory_pool_item_s	./inc/memory_pools.c	/^typedef struct memory_pool_item_s {$/;"	s	file:
+memory_pool_item_start_s	./inc/memory_pools.c	/^typedef struct memory_pool_item_start_s {$/;"	s	file:
+memory_pool_item_start_t	./inc/memory_pools.c	/^} memory_pool_item_start_t;$/;"	t	typeref:struct:memory_pool_item_start_s	file:
+memory_pool_item_t	./inc/memory_pools.c	/^} memory_pool_item_t;$/;"	t	typeref:struct:memory_pool_item_s	file:
+memory_pool_s	./inc/memory_pools.c	/^typedef struct memory_pool_s {$/;"	s	file:
+memory_pool_t	./inc/memory_pools.c	/^} memory_pool_t;$/;"	t	typeref:struct:memory_pool_s	file:
+memory_pools_add_pool	./inc/memory_pools.c	/^memory_pools_add_pool ($/;"	f
+memory_pools_allocate	./inc/memory_pools.c	/^memory_pools_allocate ($/;"	f
+memory_pools_create	./inc/memory_pools.c	/^memory_pools_handle_t memory_pools_create (uint32_t pools_number)$/;"	f
+memory_pools_free	./inc/memory_pools.c	/^memory_pools_free ($/;"	f
+memory_pools_from_handler	./inc/memory_pools.c	/^memory_pools_from_handler ($/;"	f	file:
+memory_pools_handle	./inc/intertask_interface.c	/^  memory_pools_handle_t                   memory_pools_handle;$/;"	m	struct:itti_desc_s	file:
+memory_pools_handle_t	./inc/memory_pools.h	/^typedef void * memory_pools_handle_t;$/;"	t
+memory_pools_s	./inc/memory_pools.c	/^typedef struct memory_pools_s {$/;"	s	file:
+memory_pools_set_info	./inc/memory_pools.c	/^memory_pools_set_info ($/;"	f
+memory_pools_statistics	./inc/memory_pools.c	/^memory_pools_statistics ($/;"	f
+memory_pools_t	./inc/memory_pools.c	/^} memory_pools_t;$/;"	t	typeref:struct:memory_pools_s	file:
+messageId	./inc/intertask_interface_types.h	/^  MessagesIds messageId;          \/**< Unique message id as referenced in enum MessagesIds *\/$/;"	m	struct:MessageHeader_s
+message_demo_s	./inc/demo_messages_types.h	/^typedef struct message_demo_s {$/;"	s
+message_demo_t	./inc/demo_messages_types.h	/^} message_demo_t;/;"	t	typeref:struct:message_demo_s
+message_info_s	./inc/intertask_interface.h	/^typedef struct message_info_s {$/;"	s
+message_info_t	./inc/intertask_interface.h	/^} message_info_t;$/;"	t	typeref:struct:message_info_s
+message_list_s	./inc/intertask_interface.c	/^typedef struct message_list_s {$/;"	s	file:
+message_list_t	./inc/intertask_interface.c	/^} message_list_t;$/;"	t	typeref:struct:message_list_s	file:
+message_number	./inc/intertask_interface.c	/^  message_number_t                        message_number;       \/\/\/< Unique message number$/;"	m	struct:message_list_s	file:
+message_number	./inc/intertask_interface.c	/^  message_number_t message_number __attribute__ ((aligned (8)));$/;"	m	struct:itti_desc_s	file:
+message_number	./inc/intertask_interface_dump.c	/^  uint32_t                                message_number;$/;"	m	struct:itti_dump_queue_item_s	file:
+message_number_char	./inc/itti_types.h	/^  char message_number_char[12]; \/* 9 chars are needed to store an unsigned 32 bits value in decimal, but must be a multiple of 32 bits to avoid alignment issues *\/$/;"	m	struct:__anon2
+message_number_t	./inc/intertask_interface.h	/^typedef unsigned long message_number_t;$/;"	t
+message_priorities_e	./inc/intertask_interface.h	/^typedef enum message_priorities_e {$/;"	g
+message_priorities_t	./inc/intertask_interface.h	/^} message_priorities_t;$/;"	t	typeref:enum:message_priorities_e
+message_priority	./inc/intertask_interface.c	/^  uint32_t                                message_priority;     \/\/\/< Message priority$/;"	m	struct:message_list_s	file:
+message_queue	./inc/intertask_interface.c	/^  struct lfds611_queue_state             *message_queue;$/;"	m	struct:task_desc_s	typeref:struct:task_desc_s::lfds611_queue_state	file:
+message_size	./inc/intertask_interface_dump.c	/^  uint32_t                                message_size;$/;"	m	struct:itti_dump_queue_item_s	file:
+message_size	./inc/itti_types.h	/^  uint32_t              message_size;$/;"	m	struct:__anon1
+message_type	./inc/intertask_interface_dump.c	/^  uint32_t                                message_type;$/;"	m	struct:itti_dump_queue_item_s	file:
+message_type	./inc/itti_types.h	/^  itti_message_types_t  message_type;$/;"	m	struct:__anon1
+messages_definition_xml	./inc/intertask_interface_init.h	/^const char * const messages_definition_xml = {$/;"	v
+messages_id_max	./inc/intertask_interface.c	/^  MessagesIds                             messages_id_max;$/;"	m	struct:itti_desc_s	file:
+messages_info	./inc/intertask_interface.c	/^  const message_info_t                   *messages_info;$/;"	m	struct:itti_desc_s	file:
+messages_info	./inc/intertask_interface_init.h	/^const message_info_t messages_info[] = {$/;"	v
+messages_pending	./inc/intertask_interface.c	/^  unsigned                                messages_pending;$/;"	m	struct:thread_desc_s	file:
+midstr	./bstr/bstrwrap.cpp	/^const CBString CBString::midstr (int left, int len) const {$/;"	f	class:Bstrlib::CBString
+minBuffSz	./bstr/bstraux.c	/^    int minBuffSz;$/;"	m	struct:bwriteStream	file:
+minimum	./inc/memory_pools.c	/^  volatile uint32_t                       minimum;$/;"	m	struct:items_group_s	file:
+mlen	./bstr/bstrlib.h	/^	int mlen;$/;"	m	struct:tagbstring
+mlen	./bstr/bstrlib.h	/^    int qty, mlen;$/;"	m	struct:bstrList
+mp_debug	./inc/memory_pools.c	/^const static int                        mp_debug = 0;$/;"	v	file:
+msg	./bstr/bstrwrap.h	/^	std::string msg;$/;"	m	struct:Bstrlib::CBStringException
+msg	./inc/intertask_interface.c	/^  MessageDef                             *msg;  \/\/\/< Pointer to the message$/;"	m	struct:message_list_s	file:
+msg_s	./inc/intertask_interface_types.h	/^typedef union msg_s {$/;"	u
+msg_t	./inc/intertask_interface_types.h	/^} msg_t;$/;"	t	typeref:union:msg_s
+name	./inc/demo_messages_types.h	/^	const char *name;$/;"	m	struct:message_demo_s
+name	./inc/intertask_interface.h	/^  const char * const name;$/;"	m	struct:message_info_s
+name	./inc/intertask_interface.h	/^  const char * const name;$/;"	m	struct:task_info_s
+nb_connected	./inc/intertask_interface_dump.c	/^  int                                     nb_connected;$/;"	m	struct:itti_desc_s	file:
+nb_events	./inc/intertask_interface.c	/^  uint16_t                                nb_events;$/;"	m	struct:thread_desc_s	file:
+next	./bstr/utf8util.h	/^	int           	start, next;$/;"	m	struct:utf8Iterator
+nfindchr	./bstr/bstrwrap.cpp	/^int CBString::nfindchr (const CBString& b, int pos) const {$/;"	f	class:Bstrlib::CBString
+nfindchr	./bstr/bstrwrap.cpp	/^int CBString::nfindchr (const char * s, int pos) const {$/;"	f	class:Bstrlib::CBString
+nreversefindchr	./bstr/bstrwrap.cpp	/^int CBString::nreversefindchr (const CBString& b, int pos) const {$/;"	f	class:Bstrlib::CBString
+nreversefindchr	./bstr/bstrwrap.cpp	/^int CBString::nreversefindchr (const char * s, int pos) const {$/;"	f	class:Bstrlib::CBString
+number_plus_one	./inc/memory_pools.c	/^  items_group_position_t                  number_plus_one;$/;"	m	struct:items_group_s	file:
+ofs	./bstr/bstest.c	/^	int ofs;$/;"	m	struct:emuFile	file:
+ofs	./bstr/bstest.c	/^    int ofs;$/;"	m	struct:sbstr	file:
+ofs	./bstr/testaux.c	/^	int ofs;$/;"	m	struct:vfgetc	file:
+operator !=	./bstr/bstrwrap.cpp	/^bool CBString::operator != (const CBString& b) const {$/;"	f	class:Bstrlib::CBString
+operator !=	./bstr/bstrwrap.cpp	/^bool CBString::operator != (const char * s) const {$/;"	f	class:Bstrlib::CBString
+operator !=	./bstr/bstrwrap.cpp	/^bool CBString::operator != (const unsigned char * s) const {$/;"	f	class:Bstrlib::CBString
+operator *	./bstr/bstrwrap.h	/^	inline const CBString operator * (int count) const {$/;"	f	struct:Bstrlib::CBString
+operator *	./bstr/bstrwrap.h	/^inline const CBString operator * (int count, const CBString& b) {$/;"	f	namespace:Bstrlib
+operator *=	./bstr/bstrwrap.h	/^	inline const CBString& operator *= (int count) {$/;"	f	struct:Bstrlib::CBString
+operator +	./bstr/bstrwrap.cpp	/^const CBString CBString::operator + (char c) const {$/;"	f	class:Bstrlib::CBString
+operator +	./bstr/bstrwrap.cpp	/^const CBString CBString::operator + (const CBString& b) const {$/;"	f	class:Bstrlib::CBString
+operator +	./bstr/bstrwrap.cpp	/^const CBString CBString::operator + (const char *s) const {$/;"	f	class:Bstrlib::CBString
+operator +	./bstr/bstrwrap.cpp	/^const CBString CBString::operator + (const tagbstring& x) const {$/;"	f	class:Bstrlib::CBString
+operator +	./bstr/bstrwrap.cpp	/^const CBString CBString::operator + (const unsigned char *s) const {$/;"	f	class:Bstrlib::CBString
+operator +	./bstr/bstrwrap.cpp	/^const CBString CBString::operator + (unsigned char c) const {$/;"	f	class:Bstrlib::CBString
+operator +	./bstr/bstrwrap.cpp	/^const CBString operator + (char c, const CBString& b) {$/;"	f	namespace:Bstrlib
+operator +	./bstr/bstrwrap.cpp	/^const CBString operator + (const char *a, const CBString& b) {$/;"	f	namespace:Bstrlib
+operator +	./bstr/bstrwrap.cpp	/^const CBString operator + (const tagbstring& x, const CBString& b) {$/;"	f	namespace:Bstrlib
+operator +	./bstr/bstrwrap.cpp	/^const CBString operator + (const unsigned char *a, const CBString& b) {$/;"	f	namespace:Bstrlib
+operator +	./bstr/bstrwrap.cpp	/^const CBString operator + (unsigned char c, const CBString& b) {$/;"	f	namespace:Bstrlib
+operator +=	./bstr/bstrwrap.cpp	/^const CBString& CBString::operator += (char c) {$/;"	f	class:Bstrlib::CBString
+operator +=	./bstr/bstrwrap.cpp	/^const CBString& CBString::operator += (const CBString& b) {$/;"	f	class:Bstrlib::CBString
+operator +=	./bstr/bstrwrap.cpp	/^const CBString& CBString::operator += (const char *s) {$/;"	f	class:Bstrlib::CBString
+operator +=	./bstr/bstrwrap.cpp	/^const CBString& CBString::operator += (const tagbstring& x) {$/;"	f	class:Bstrlib::CBString
+operator +=	./bstr/bstrwrap.cpp	/^const CBString& CBString::operator += (unsigned char c) {$/;"	f	class:Bstrlib::CBString
+operator <	./bstr/bstrwrap.cpp	/^bool CBString::operator < (const CBString& b) const {$/;"	f	class:Bstrlib::CBString
+operator <	./bstr/bstrwrap.cpp	/^bool CBString::operator < (const char * s) const {$/;"	f	class:Bstrlib::CBString
+operator <	./bstr/bstrwrap.cpp	/^bool CBString::operator < (const unsigned char * s) const {$/;"	f	class:Bstrlib::CBString
+operator <<	./bstr/bstrwrap.cpp	/^std::ostream& operator << (std::ostream& sout, CBString b) {$/;"	f	namespace:Bstrlib
+operator <<	./bstr/bstrwrap.h	/^	inline CBStream& operator << (const CBString& s) {$/;"	f	struct:Bstrlib::CBStream
+operator <=	./bstr/bstrwrap.cpp	/^bool CBString::operator <= (const CBString& b) const {$/;"	f	class:Bstrlib::CBString
+operator <=	./bstr/bstrwrap.cpp	/^bool CBString::operator <= (const char * s) const {$/;"	f	class:Bstrlib::CBString
+operator <=	./bstr/bstrwrap.cpp	/^bool CBString::operator <= (const unsigned char * s) const {$/;"	f	class:Bstrlib::CBString
+operator =	./bstr/bstrwrap.cpp	/^const CBString& CBString::operator = (char c) {$/;"	f	class:Bstrlib::CBString
+operator =	./bstr/bstrwrap.cpp	/^const CBString& CBString::operator = (const CBString& b) {$/;"	f	class:Bstrlib::CBString
+operator =	./bstr/bstrwrap.cpp	/^const CBString& CBString::operator = (const char *s) {$/;"	f	class:Bstrlib::CBString
+operator =	./bstr/bstrwrap.cpp	/^const CBString& CBString::operator = (const tagbstring& x) {$/;"	f	class:Bstrlib::CBString
+operator =	./bstr/bstrwrap.cpp	/^const CBString& CBString::operator = (unsigned char c) {$/;"	f	class:Bstrlib::CBString
+operator =	./bstr/bstrwrap.h	/^	inline char operator = (char c) {$/;"	f	class:Bstrlib::CBCharWriteProtected
+operator =	./bstr/bstrwrap.h	/^	inline unsigned char operator = (unsigned char c) {$/;"	f	class:Bstrlib::CBCharWriteProtected
+operator ==	./bstr/bstrwrap.cpp	/^bool CBString::operator == (const CBString& b) const {$/;"	f	class:Bstrlib::CBString
+operator ==	./bstr/bstrwrap.cpp	/^bool CBString::operator == (const char * s) const {$/;"	f	class:Bstrlib::CBString
+operator ==	./bstr/bstrwrap.cpp	/^bool CBString::operator == (const unsigned char * s) const {$/;"	f	class:Bstrlib::CBString
+operator >	./bstr/bstrwrap.cpp	/^bool CBString::operator > (const CBString& b) const {$/;"	f	class:Bstrlib::CBString
+operator >	./bstr/bstrwrap.cpp	/^bool CBString::operator > (const char * s) const {$/;"	f	class:Bstrlib::CBString
+operator >	./bstr/bstrwrap.cpp	/^bool CBString::operator > (const unsigned char * s) const {$/;"	f	class:Bstrlib::CBString
+operator >=	./bstr/bstrwrap.cpp	/^bool CBString::operator >= (const CBString& b) const {$/;"	f	class:Bstrlib::CBString
+operator >=	./bstr/bstrwrap.cpp	/^bool CBString::operator >= (const char * s) const {$/;"	f	class:Bstrlib::CBString
+operator >=	./bstr/bstrwrap.cpp	/^bool CBString::operator >= (const unsigned char * s) const {$/;"	f	class:Bstrlib::CBString
+operator >>	./bstr/bstrwrap.cpp	/^CBString& CBStream::operator >> (CBString& s) {$/;"	f	class:Bstrlib::CBStream
+operator >>	./bstr/bstrwrap.cpp	/^std::istream& operator >> (std::istream& sin, CBString& b) {$/;"	f	namespace:Bstrlib
+operator []	./bstr/bstrwrap.h	/^	inline CBCharWriteProtected operator [] (int i) { return character(i); }$/;"	f	struct:Bstrlib::CBString
+operator []	./bstr/bstrwrap.h	/^	inline unsigned char operator [] (int i) const { return character(i); }$/;"	f	struct:Bstrlib::CBString
+operator const char*	./bstr/bstrwrap.h	/^	inline operator const char* () const { return (const char *)data; }$/;"	f	struct:Bstrlib::CBString
+operator const unsigned char*	./bstr/bstrwrap.h	/^	inline operator const unsigned char* () const { return (const unsigned char *)data; }$/;"	f	struct:Bstrlib::CBString
+operator double	./bstr/bstrwrap.cpp	/^CBString::operator double () const {$/;"	f	class:Bstrlib::CBString
+operator float	./bstr/bstrwrap.cpp	/^CBString::operator float () const {$/;"	f	class:Bstrlib::CBString
+operator int	./bstr/bstrwrap.cpp	/^CBString::operator int () const {$/;"	f	class:Bstrlib::CBString
+operator unsigned char	./bstr/bstrwrap.h	/^	inline operator unsigned char () const {$/;"	f	class:Bstrlib::CBCharWriteProtected
+operator unsigned int	./bstr/bstrwrap.cpp	/^CBString::operator unsigned int () const {$/;"	f	class:Bstrlib::CBString
+originTaskId	./inc/intertask_interface_types.h	/^  task_id_t  originTaskId;        \/**< ID of the sender task *\/$/;"	m	struct:MessageHeader_s
+parent_task	./inc/intertask_interface.h	/^  task_id_t   parent_task;$/;"	m	struct:task_info_s
+parm	./bstr/bstraux.c	/^    void * parm;     \/* The stream handle for core stream        *\/$/;"	m	struct:bwriteStream	file:
+parm	./bstr/bstrlib.c	/^	void * parm;		\/* The stream handle for core stream *\/$/;"	m	struct:bStream	file:
+peek	./bstr/bstrwrap.cpp	/^CBString CBStream::peek () const {$/;"	f	class:Bstrlib::CBStream
+peek	./bstr/bstrwrap.cpp	/^void CBStream::peek (CBString& s) const {$/;"	f	class:Bstrlib::CBStream
+peekAppend	./bstr/bstrwrap.cpp	/^void CBStream::peekAppend (CBString& s) const {$/;"	f	class:Bstrlib::CBStream
+pending_messages	./inc/intertask_interface_dump.c	/^static volatile uint32_t                pending_messages = 0;$/;"	v	file:
+pool_id	./inc/memory_pools.c	/^  pool_id_t                               pool_id;$/;"	m	struct:memory_pool_item_start_s	file:
+pool_id	./inc/memory_pools.c	/^  pool_id_t                               pool_id;$/;"	m	struct:memory_pool_s	file:
+pool_id_t	./inc/memory_pools.c	/^typedef uint8_t                         pool_id_t;$/;"	t	file:
+pool_item_end_mark_t	./inc/memory_pools.c	/^typedef uint32_t                        pool_item_end_mark_t;$/;"	t	file:
+pool_item_size	./inc/memory_pools.c	/^  uint32_t                                pool_item_size;$/;"	m	struct:memory_pool_s	file:
+pool_item_start_mark_t	./inc/memory_pools.c	/^typedef uint32_t                        pool_item_start_mark_t;$/;"	t	file:
+pool_start_mark_t	./inc/memory_pools.c	/^typedef uint32_t                        pool_start_mark_t;$/;"	t	file:
+pools	./inc/memory_pools.c	/^  memory_pool_t                          *pools;$/;"	m	struct:memory_pools_s	file:
+pools_defined	./inc/memory_pools.c	/^  uint32_t                                pools_defined;$/;"	m	struct:memory_pools_s	file:
+pools_number	./inc/memory_pools.c	/^  uint32_t                                pools_number;$/;"	m	struct:memory_pools_s	file:
+pools_start_mark_t	./inc/memory_pools.c	/^typedef uint32_t                        pools_start_mark_t;$/;"	t	file:
+positions	./inc/memory_pools.c	/^  volatile items_group_positions_t        positions;$/;"	m	struct:items_group_s	file:
+priority	./inc/intertask_interface.h	/^  message_priorities_t priority;$/;"	m	struct:message_info_s
+priority	./inc/intertask_interface.h	/^  task_priorities_t priority;$/;"	m	struct:task_info_s
+put	./inc/memory_pools.c	/^    items_group_position_t                  put;$/;"	m	struct:items_group_positions_u::__anon11	file:
+qty	./bstr/bstrlib.h	/^    int qty, mlen;$/;"	m	struct:bstrList
+queue_size	./inc/intertask_interface.h	/^  unsigned int queue_size;$/;"	m	struct:task_info_s
+read	./bstr/bstrwrap.cpp	/^CBString CBStream::read () {$/;"	f	class:Bstrlib::CBStream
+read	./bstr/bstrwrap.cpp	/^CBString CBStream::read (int n) {$/;"	f	class:Bstrlib::CBStream
+read	./bstr/bstrwrap.cpp	/^int CBString::read (bNread readPtr, void * parm) {$/;"	f	class:Bstrlib::CBString
+read	./bstr/bstrwrap.cpp	/^void CBStream::read (CBString& s) {$/;"	f	class:Bstrlib::CBStream
+read	./bstr/bstrwrap.cpp	/^void CBStream::read (CBString& s, int n) {$/;"	f	class:Bstrlib::CBStream
+readAppend	./bstr/bstrwrap.cpp	/^void CBStream::readAppend (CBString& s) {$/;"	f	class:Bstrlib::CBStream
+readAppend	./bstr/bstrwrap.cpp	/^void CBStream::readAppend (CBString& s, int n) {$/;"	f	class:Bstrlib::CBStream
+readFnPtr	./bstr/bstrlib.c	/^	bNread readFnPtr;	\/* fread compatible fnptr for core stream *\/$/;"	m	struct:bStream	file:
+readLine	./bstr/bstrwrap.cpp	/^CBString CBStream::readLine (char terminator) {$/;"	f	class:Bstrlib::CBStream
+readLine	./bstr/bstrwrap.cpp	/^CBString CBStream::readLine (const CBString& terminator) {$/;"	f	class:Bstrlib::CBStream
+readLine	./bstr/bstrwrap.cpp	/^void CBStream::readLine (CBString& s, char terminator) {$/;"	f	class:Bstrlib::CBStream
+readLine	./bstr/bstrwrap.cpp	/^void CBStream::readLine (CBString& s, const CBString& terminator) {$/;"	f	class:Bstrlib::CBStream
+readLineAppend	./bstr/bstrwrap.cpp	/^void CBStream::readLineAppend (CBString& s, char terminator) {$/;"	f	class:Bstrlib::CBStream
+readLineAppend	./bstr/bstrwrap.cpp	/^void CBStream::readLineAppend (CBString& s, const CBString& terminator) {$/;"	f	class:Bstrlib::CBStream
+readNothing	./bstr/bstraux.c	/^static size_t readNothing (void *buff, size_t elsize, size_t nelem, void *parm) {$/;"	f	file:
+readRef	./bstr/bstraux.c	/^static size_t readRef (void *buff, size_t elsize, size_t nelem, void *parm) {$/;"	f	file:
+ready_tasks	./inc/intertask_interface.c	/^  volatile uint32_t                       ready_tasks;$/;"	m	struct:itti_desc_s	file:
+real_time	./inc/intertask_interface.c	/^  unsigned                                real_time;$/;"	m	struct:thread_desc_s	file:
+remove	./bstr/bstrwrap.cpp	/^void CBString::remove (int pos, int len) {$/;"	f	class:Bstrlib::CBString
+repeat	./bstr/bstrwrap.cpp	/^void CBString::repeat (int count) {$/;"	f	class:Bstrlib::CBString
+replace	./bstr/bstrwrap.cpp	/^void CBString::replace (int pos, int len, const CBString& b, unsigned char cfill) {$/;"	f	class:Bstrlib::CBString
+replace	./bstr/bstrwrap.cpp	/^void CBString::replace (int pos, int len, const char * s, unsigned char cfill) {$/;"	f	class:Bstrlib::CBString
+reversefind	./bstr/bstrwrap.cpp	/^int CBString::reversefind (char c, int pos) const {$/;"	f	class:Bstrlib::CBString
+reversefind	./bstr/bstrwrap.cpp	/^int CBString::reversefind (const CBString& b, int pos) const {$/;"	f	class:Bstrlib::CBString
+reversefind	./bstr/bstrwrap.cpp	/^int CBString::reversefind (const char * b, int pos) const {$/;"	f	class:Bstrlib::CBString
+reversefindchr	./bstr/bstrwrap.cpp	/^int CBString::reversefindchr (const CBString& b, int pos) const {$/;"	f	class:Bstrlib::CBString
+reversefindchr	./bstr/bstrwrap.cpp	/^int CBString::reversefindchr (const char * s, int pos) const {$/;"	f	class:Bstrlib::CBString
+rot	./bstr/bstest.c	/^static int rot = 0;$/;"	v	file:
+rot	./bstr/test.cpp	/^static unsigned int rot = 0;$/;"	v	file:
+rtrim	./bstr/bstrwrap.cpp	/^void CBString::rtrim (const CBString& b) {$/;"	f	class:Bstrlib::CBString
+running	./inc/intertask_interface.c	/^  int                                     running;$/;"	m	struct:itti_desc_s	file:
+s	./bstr/bstrwrap.h	/^	const struct tagbstring& s;$/;"	m	class:Bstrlib::CBCharWriteProtected	typeref:struct:Bstrlib::CBCharWriteProtected::tagbstring
+sInp	./bstr/bstraux.c	/^	struct bStream * sInp;$/;"	m	struct:bsUuCtx	typeref:struct:bsUuCtx::bStream	file:
+sbstr	./bstr/bstest.c	/^struct sbstr {$/;"	s	file:
+sc	./bstr/bstest.c	/^	unsigned char sc;$/;"	m	struct:tagBss	file:
+sd	./inc/intertask_interface_dump.c	/^  int                                     sd;$/;"	m	struct:__anon8	file:
+set	./inc/signals.c	/^static sigset_t                         set;$/;"	v	file:
+setInCharField	./bstr/bstrlib.c	1376;"	d	file:
+setInCharField	./bstr/bstrlib.c	1387;"	d	file:
+setsubstr	./bstr/bstrwrap.cpp	/^void CBString::setsubstr (int pos, const CBString& b, unsigned char cfill) {$/;"	f	class:Bstrlib::CBString
+setsubstr	./bstr/bstrwrap.cpp	/^void CBString::setsubstr (int pos, const char * s, unsigned char cfill) {$/;"	f	class:Bstrlib::CBString
+sgetc	./bstr/bstrwrap.cpp	/^struct sgetc {$/;"	s	namespace:Bstrlib	file:
+shortBstring	./bstr/bstest.c	/^struct tagbstring shortBstring = bsStatic ("bogus");$/;"	v	typeref:struct:tagbstring
+signal_handle	./inc/signals.c	/^signal_handle ($/;"	f
+signal_header	./inc/intertask_interface_dump.c	/^  itti_signal_header_t                    signal_header;$/;"	m	struct:__anon9	file:
+signal_mask	./inc/signals.c	/^signal_mask ($/;"	f
+sin	./bstr/bstrwrap.cpp	/^	std::istream * sin;$/;"	m	struct:Bstrlib::sgetc	file:
+size	./inc/intertask_interface.h	/^  MessageHeaderSize size;$/;"	m	struct:message_info_s
+size	./inc/intertask_messages_types.h	/^  uint32_t  size;$/;"	m	struct:IttiMsgText_s
+slen	./bstr/bstrlib.h	/^	int slen;$/;"	m	struct:tagbstring
+slen	./bstr/utf8util.h	/^	int           	slen;$/;"	m	struct:utf8Iterator
+snapUpSize	./bstr/bstrlib.c	/^static int snapUpSize (int i) {$/;"	f	file:
+socket_header	./inc/intertask_interface_dump.c	/^  itti_socket_header_t                    socket_header;$/;"	m	struct:__anon10	file:
+socket_header	./inc/intertask_interface_dump.c	/^  itti_socket_header_t                    socket_header;$/;"	m	struct:__anon9	file:
+split	./bstr/bstrwrap.cpp	/^void CBStringList::split (const CBStream& b, const CBString& s) {$/;"	f	class:Bstrlib::CBStringList
+split	./bstr/bstrwrap.cpp	/^void CBStringList::split (const CBStream& b, unsigned char splitChar) {$/;"	f	class:Bstrlib::CBStringList
+split	./bstr/bstrwrap.cpp	/^void CBStringList::split (const CBString& b, const CBString& s) {$/;"	f	class:Bstrlib::CBStringList
+split	./bstr/bstrwrap.cpp	/^void CBStringList::split (const CBString& b, unsigned char splitChar) {$/;"	f	class:Bstrlib::CBStringList
+splitstr	./bstr/bstrwrap.cpp	/^void CBStringList::splitstr (const CBStream& b, const CBString& s) {$/;"	f	class:Bstrlib::CBStringList
+splitstr	./bstr/bstrwrap.cpp	/^void CBStringList::splitstr (const CBString& b, const CBString& s) {$/;"	f	class:Bstrlib::CBStringList
+src	./bstr/bstraux.c	/^	bstring src, dst;$/;"	m	struct:bUuInOut	file:
+start	./bstr/utf8util.h	/^	int           	start, next;$/;"	m	struct:utf8Iterator
+start	./inc/memory_pools.c	/^  memory_pool_item_start_t                start;$/;"	m	struct:memory_pool_item_s	file:
+start_mark	./inc/memory_pools.c	/^  pool_item_start_mark_t                  start_mark;$/;"	m	struct:memory_pool_item_start_s	file:
+start_mark	./inc/memory_pools.c	/^  pool_start_mark_t                       start_mark;$/;"	m	struct:memory_pool_s	file:
+start_mark	./inc/memory_pools.c	/^  pools_start_mark_t                      start_mark;$/;"	m	struct:memory_pools_s	file:
+strcat	./bstr/bsafe.c	/^char * strcat (char *dst, const char *src) {$/;"	f
+strcat	./bstr/bsafe.h	35;"	d
+strcat	./bstr/bsafe.h	37;"	d
+strcpy	./bstr/bsafe.c	/^char * strcpy (char *dst, const char *src) {$/;"	f
+strcpy	./bstr/bsafe.h	34;"	d
+strcpy	./bstr/bsafe.h	36;"	d
+strdup	./bstr/bsafe.c	/^char * (strdup) (const char *s) {$/;"	f
+streamSplitCb	./bstr/bstrwrap.cpp	/^static int streamSplitCb (void * parm, int ofs, const_bstring entry) {$/;"	f	namespace:Bstrlib
+strncat	./bstr/bsafe.c	/^char * (strncat) (char *dst, const char *src, size_t n) {$/;"	f
+strncpy	./bstr/bsafe.c	/^char * (strncpy) (char *dst, const char *src, size_t n) {$/;"	f
+strtok	./bstr/bsafe.c	/^char * (strtok) (char *s1, const char *s2) {$/;"	f
+tWrite	./bstr/testaux.c	/^static int tWrite (const void * buf, size_t elsize, size_t nelem, void * parm) {$/;"	f	file:
+tagBss	./bstr/bstest.c	/^struct tagBss {$/;"	s	file:
+tagbstring	./bstr/bstrlib.h	/^struct tagbstring {$/;"	s
+task_desc_s	./inc/intertask_interface.c	/^typedef struct task_desc_s {$/;"	s	file:
+task_desc_t	./inc/intertask_interface.c	/^} task_desc_t;$/;"	t	typeref:struct:task_desc_s	file:
+task_event_fd	./inc/intertask_interface.c	/^  int                                     task_event_fd;$/;"	m	struct:thread_desc_s	file:
+task_id	./inc/timer.c	/^  task_id_t                               task_id;      \/\/\/< Task ID which has requested the timer$/;"	m	struct:timer_elm_s	file:
+task_id_t	./inc/intertask_interface_types.h	/^} task_id_t;$/;"	t	typeref:enum:__anon7
+task_info_s	./inc/intertask_interface.h	/^typedef struct task_info_s {$/;"	s
+task_info_t	./inc/intertask_interface.h	/^} task_info_t;$/;"	t	typeref:struct:task_info_s
+task_max	./inc/intertask_interface.c	/^  task_id_t                               task_max;$/;"	m	struct:itti_desc_s	file:
+task_priorities_e	./inc/intertask_interface.h	/^typedef enum task_priorities_e {$/;"	g
+task_priorities_t	./inc/intertask_interface.h	/^} task_priorities_t;$/;"	t	typeref:enum:task_priorities_e
+task_state	./inc/intertask_interface.c	/^  volatile task_state_t                   task_state;$/;"	m	struct:thread_desc_s	file:
+task_state_s	./inc/intertask_interface.c	/^typedef volatile enum task_state_s {$/;"	g	file:
+task_state_t	./inc/intertask_interface.c	/^} task_state_t;$/;"	t	typeref:enum:task_state_s	file:
+task_thread	./inc/intertask_interface.c	/^  pthread_t                               task_thread;$/;"	m	struct:thread_desc_s	file:
+task_thread_id_t	./inc/intertask_interface_types.h	/^} task_thread_id_t;$/;"	t	typeref:enum:__anon6
+tasks	./inc/intertask_interface.c	/^  task_desc_t                            *tasks;$/;"	m	struct:itti_desc_s	file:
+tasks_info	./inc/intertask_interface.c	/^  const task_info_t                      *tasks_info;$/;"	m	struct:itti_desc_s	file:
+tasks_info	./inc/intertask_interface_init.h	/^const task_info_t tasks_info[] = {$/;"	v
+terminator	./bstr/bstrwrap.cpp	/^	char terminator;$/;"	m	struct:Bstrlib::sgetc	file:
+test0	./bstr/bstest.c	/^static int test0 (void) {$/;"	f	file:
+test0	./bstr/test.cpp	/^int test0 (void) {$/;"	f
+test0	./bstr/testaux.c	/^int test0 (void) {$/;"	f
+test0_0	./bstr/bstest.c	/^static int test0_0 (const char * s, const char * res) {$/;"	f	file:
+test0_1	./bstr/bstest.c	/^static int test0_1 (const char * s, int len, const char * res) {$/;"	f	file:
+test0_2	./bstr/bstest.c	/^static int test0_2 (char* s) {$/;"	f	file:
+test1	./bstr/bstest.c	/^static int test1 (void) {$/;"	f	file:
+test1	./bstr/test.cpp	/^int test1 (void) {$/;"	f
+test1	./bstr/testaux.c	/^int test1 (void) {$/;"	f
+test10	./bstr/bstest.c	/^static int test10 (void) {$/;"	f	file:
+test10	./bstr/test.cpp	/^int test10 (void) {$/;"	f
+test10	./bstr/testaux.c	/^int test10 (void) {$/;"	f
+test10_0	./bstr/bstest.c	/^static int test10_0 (bstring b, int res, int nochange) {$/;"	f	file:
+test11	./bstr/bstest.c	/^static int test11 (void) {$/;"	f	file:
+test11	./bstr/test.cpp	/^int test11 (void) {$/;"	f
+test11	./bstr/testaux.c	/^int test11 (void) {$/;"	f
+test11_0	./bstr/bstest.c	/^static int test11_0 (bstring s1, int pos, const_bstring s2, int res) {$/;"	f	file:
+test11_1	./bstr/bstest.c	/^static int test11_1 (bstring s1, int pos, const_bstring s2, int res) {$/;"	f	file:
+test12	./bstr/bstest.c	/^static int test12 (void) {$/;"	f	file:
+test12	./bstr/test.cpp	/^int test12 (void) {$/;"	f
+test12	./bstr/testaux.c	/^int test12 (void) {$/;"	f
+test12_0	./bstr/bstest.c	/^static int test12_0 (bstring s1, int pos, const_bstring s2, int res) {$/;"	f	file:
+test12_1	./bstr/bstest.c	/^static int test12_1 (bstring s1, int pos, const_bstring s2, int res) {$/;"	f	file:
+test13	./bstr/bstest.c	/^static int test13 (void) {$/;"	f	file:
+test13	./bstr/test.cpp	/^int test13 (void) {$/;"	f
+test13	./bstr/testaux.c	/^int test13 (void) {$/;"	f
+test13_0	./bstr/bstest.c	/^static int test13_0 (bstring s1, int pos, const_bstring s2, int res) {$/;"	f	file:
+test13_fgetc	./bstr/testaux.c	/^static int test13_fgetc (void * ctx) {$/;"	f	file:
+test14	./bstr/bstest.c	/^static int test14 (void) {$/;"	f	file:
+test14	./bstr/test.cpp	/^int test14 (void) {$/;"	f
+test14	./bstr/testaux.c	/^int test14 (void) {$/;"	f
+test14_0	./bstr/bstest.c	/^static int test14_0 (bstring s1, int pos, const_bstring s2, int res) {$/;"	f	file:
+test14_aux	./bstr/testaux.c	/^int test14_aux(bstring b, const char* chkVal) {$/;"	f
+test15	./bstr/bstest.c	/^static int test15 (void) {$/;"	f	file:
+test15	./bstr/test.cpp	/^int test15 (void) {$/;"	f
+test15_0	./bstr/bstest.c	/^static int test15_0 (bstring b0, int pos, const_bstring b1, unsigned char fill, char * res) {$/;"	f	file:
+test16	./bstr/bstest.c	/^static int test16 (void) {$/;"	f	file:
+test16	./bstr/test.cpp	/^int test16 (void) {$/;"	f
+test16_0	./bstr/bstest.c	/^static int test16_0 (bstring b0, int pos, const_bstring b1, unsigned char fill, char * res) {$/;"	f	file:
+test16_1	./bstr/bstest.c	/^static int test16_1 (void) {$/;"	f	file:
+test17	./bstr/bstest.c	/^static int test17 (void) {$/;"	f	file:
+test17	./bstr/test.cpp	/^int test17 (void) {$/;"	f
+test17_0	./bstr/bstest.c	/^static int test17_0 (bstring s1, int pos, int len, char * res) {$/;"	f	file:
+test18	./bstr/bstest.c	/^static int test18 (void) {$/;"	f	file:
+test18	./bstr/test.cpp	/^int test18 (void) {$/;"	f
+test18_0	./bstr/bstest.c	/^static int test18_0 (bstring b, int len, int res, int mlen) {$/;"	f	file:
+test18_1	./bstr/bstest.c	1353;"	d	file:
+test18_1_int	./bstr/bstest.c	/^static int test18_1_int (bstring b, int len, int res, int mlen, int __line__) {$/;"	f	file:
+test19	./bstr/bstest.c	/^static int test19 (void) {$/;"	f	file:
+test19	./bstr/test.cpp	/^int test19 (void) {$/;"	f
+test19_0	./bstr/bstest.c	/^static int test19_0 (bstring b, int len, const char * res, int erv) {$/;"	f	file:
+test1_0	./bstr/bstest.c	/^static int test1_0 (const void * blk, int len, const char * res) {$/;"	f	file:
+test2	./bstr/bstest.c	/^static int test2 (void) {$/;"	f	file:
+test2	./bstr/test.cpp	/^int test2 (void) {$/;"	f
+test2	./bstr/testaux.c	/^int test2 (void) {$/;"	f
+test20	./bstr/bstest.c	/^static int test20 (void) {$/;"	f	file:
+test20	./bstr/test.cpp	/^int test20 (void) {$/;"	f
+test21	./bstr/bstest.c	/^static int test21 (void) {$/;"	f	file:
+test21	./bstr/test.cpp	/^int test21 (void) {$/;"	f
+test21_0	./bstr/bstest.c	/^static int test21_0 (bstring b, char sc, int ns) {$/;"	f	file:
+test21_1	./bstr/bstest.c	/^static int test21_1 (bstring b, const_bstring sc, int ns) {$/;"	f	file:
+test22	./bstr/bstest.c	/^static int test22 (void) {$/;"	f	file:
+test22	./bstr/test.cpp	/^int test22 (void) {$/;"	f
+test22_0	./bstr/bstest.c	/^static int test22_0 (const_bstring b, const_bstring sep, int ns, ...) {$/;"	f	file:
+test23	./bstr/bstest.c	/^static int test23 (void) {$/;"	f	file:
+test23	./bstr/test.cpp	/^int test23 (void) {$/;"	f
+test23_aux_open	./bstr/bstest.c	/^static int test23_aux_open (struct sbstr * sb, bstring b) {$/;"	f	file:
+test23_aux_read	./bstr/bstest.c	/^static size_t test23_aux_read (void *buff, size_t elsize, size_t nelem, void *parm) {$/;"	f	file:
+test23_aux_splitcb	./bstr/bstest.c	/^static int test23_aux_splitcb (void * parm, int ofs, const struct tagbstring * entry) {$/;"	f	file:
+test23_aux_splitcbx	./bstr/bstest.c	/^static int test23_aux_splitcbx (void * parm, int ofs, const struct tagbstring * entry) {$/;"	f	file:
+test24	./bstr/bstest.c	/^static int test24 (void) {$/;"	f	file:
+test24	./bstr/test.cpp	/^int test24 (void) {$/;"	f
+test24_0	./bstr/bstest.c	/^static int test24_0 (bstring s1, int pos, const_bstring s2, int res) {$/;"	f	file:
+test25	./bstr/bstest.c	/^static int test25 (void) {$/;"	f	file:
+test25	./bstr/test.cpp	/^int test25 (void) {$/;"	f
+test25_0	./bstr/bstest.c	/^static int test25_0 (bstring s1, int pos, const_bstring s2, int res) {$/;"	f	file:
+test26	./bstr/bstest.c	/^static int test26 (void) {$/;"	f	file:
+test26	./bstr/test.cpp	/^int test26 (void) {$/;"	f
+test26_0	./bstr/bstest.c	/^static int test26_0 (bstring b0, int pos, int len, const_bstring b1, unsigned char fill, char * res) {$/;"	f	file:
+test27	./bstr/bstest.c	/^static int test27 (void) {$/;"	f	file:
+test27	./bstr/test.cpp	/^int test27 (void) {$/;"	f
+test27_0	./bstr/bstest.c	/^static int test27_0 (bstring b0, const_bstring b1, const char * res) {$/;"	f	file:
+test28	./bstr/bstest.c	/^static int test28 (void) {$/;"	f	file:
+test28	./bstr/test.cpp	/^int test28 (void) {$/;"	f
+test28_0	./bstr/bstest.c	/^static int test28_0 (bstring s1, int c, int res) {$/;"	f	file:
+test28_1	./bstr/bstest.c	/^static int test28_1 (bstring s1, int c, int res) {$/;"	f	file:
+test28_2	./bstr/bstest.c	/^static int test28_2 (bstring s1, int c, int pos, int res) {$/;"	f	file:
+test28_3	./bstr/bstest.c	/^static int test28_3 (bstring s1, int c, int pos, int res) {$/;"	f	file:
+test29	./bstr/bstest.c	/^static int test29 (void) {$/;"	f	file:
+test29	./bstr/test.cpp	/^int test29 (void) {$/;"	f
+test29_0	./bstr/bstest.c	/^static int test29_0 (bstring b0, char * s, const char * res) {$/;"	f	file:
+test2_0	./bstr/bstest.c	/^static int test2_0 (const_bstring b, char z, const unsigned char * res) {$/;"	f	file:
+test3	./bstr/bstest.c	/^static int test3 (void) {$/;"	f	file:
+test3	./bstr/test.cpp	/^int test3 (void) {$/;"	f
+test3	./bstr/testaux.c	/^int test3 (void) {$/;"	f
+test30	./bstr/bstest.c	/^static int test30 (void) {$/;"	f	file:
+test30	./bstr/test.cpp	/^int test30 (void) {$/;"	f
+test30_0	./bstr/bstest.c	/^static int test30_0 (bstring b0, const unsigned char * s, int len, const char * res) {$/;"	f	file:
+test31	./bstr/bstest.c	/^static int test31 (void) {$/;"	f	file:
+test31	./bstr/test.cpp	/^int test31 (void) {$/;"	f
+test31_0	./bstr/bstest.c	/^static int test31_0 (bstring b0, const_bstring find, const_bstring replace, int pos, char * res) {$/;"	f	file:
+test31_1	./bstr/bstest.c	/^static int test31_1 (bstring b0, const_bstring find, const_bstring replace, int pos, char * res) {$/;"	f	file:
+test31_aux	./bstr/test.cpp	/^static size_t test31_aux (void *buff, size_t elsize, size_t nelem, void *parm) {$/;"	f	file:
+test32	./bstr/bstest.c	/^static int test32 (void) {$/;"	f	file:
+test32	./bstr/test.cpp	/^static int test32(void) {$/;"	f	file:
+test32_0	./bstr/bstest.c	/^static int test32_0 (const_bstring b, const char * s, int res) {$/;"	f	file:
+test32_1	./bstr/bstest.c	/^static int test32_1 (const_bstring b, const char * s, int res) {$/;"	f	file:
+test33	./bstr/bstest.c	/^static int test33 (void) {$/;"	f	file:
+test33	./bstr/test.cpp	/^static int test33(void) {$/;"	f	file:
+test33_0	./bstr/bstest.c	/^static int test33_0 (bstring b0, const char * res) {$/;"	f	file:
+test34	./bstr/bstest.c	/^static int test34 (void) {$/;"	f	file:
+test34_0	./bstr/bstest.c	/^static int test34_0 (bstring b0, const char * res) {$/;"	f	file:
+test35	./bstr/bstest.c	/^static int test35 (void) {$/;"	f	file:
+test35_0	./bstr/bstest.c	/^static int test35_0 (const_bstring b0, const_bstring b1, int res) {$/;"	f	file:
+test36	./bstr/bstest.c	/^static int test36 (void) {$/;"	f	file:
+test36_0	./bstr/bstest.c	/^static int test36_0 (const_bstring b0, const_bstring b1, int n, int res) {$/;"	f	file:
+test37	./bstr/bstest.c	/^static int test37 (void) {$/;"	f	file:
+test37_0	./bstr/bstest.c	/^static int test37_0 (const_bstring b0, const_bstring b1, int res) {$/;"	f	file:
+test38	./bstr/bstest.c	/^static int test38 (void) {$/;"	f	file:
+test38_aux_bNgetc	./bstr/bstest.c	/^static int test38_aux_bNgetc (struct emuFile * f) {$/;"	f	file:
+test38_aux_bNopen	./bstr/bstest.c	/^static int test38_aux_bNopen (struct emuFile * f, bstring b) {$/;"	f	file:
+test38_aux_bNread	./bstr/bstest.c	/^static size_t test38_aux_bNread (void *buff, size_t elsize, size_t nelem, struct emuFile * f) {$/;"	f	file:
+test39	./bstr/bstest.c	/^static int test39 (void) {$/;"	f	file:
+test39_0	./bstr/bstest.c	/^static int test39_0 (const_bstring b, const_bstring lt, const_bstring rt, const_bstring t) {$/;"	f	file:
+test3_0	./bstr/bstest.c	/^static int test3_0 (const_bstring b) {$/;"	f	file:
+test4	./bstr/bstest.c	/^static int test4 (void) {$/;"	f	file:
+test4	./bstr/test.cpp	/^int test4 (void) {$/;"	f
+test4	./bstr/testaux.c	/^int test4 (void) {$/;"	f
+test40	./bstr/bstest.c	/^static int test40 (void) {$/;"	f	file:
+test40_0	./bstr/bstest.c	/^static int test40_0 (bstring b0, const_bstring b1, int left, int len, const char * res) {$/;"	f	file:
+test41	./bstr/bstest.c	/^static int test41 (void) {$/;"	f	file:
+test41_0	./bstr/bstest.c	/^static int test41_0 (bstring b1, int left, int len, const char * res) {$/;"	f	file:
+test42	./bstr/bstest.c	/^static int test42 (void) {$/;"	f	file:
+test42_0	./bstr/bstest.c	/^static int test42_0 (const_bstring bi, int len, const char * res) {$/;"	f	file:
+test43	./bstr/bstest.c	/^static int test43 (void) {$/;"	f	file:
+test44	./bstr/bstest.c	/^static int test44 (void) {$/;"	f	file:
+test44_0	./bstr/bstest.c	/^static int test44_0 (const char * str) {$/;"	f	file:
+test45	./bstr/bstest.c	/^static int test45 (void) {$/;"	f	file:
+test45_0	./bstr/bstest.c	/^static int test45_0 (const char * str) {$/;"	f	file:
+test46	./bstr/bstest.c	/^static int test46 (void) {$/;"	f	file:
+test46_0	./bstr/bstest.c	/^static int test46_0 (const_bstring r, bstring b, int count, const char * fmt, ...) {$/;"	f	file:
+test46_1	./bstr/bstest.c	/^static int test46_1 (bstring b, const char * fmt, const_bstring r, ...) {$/;"	f	file:
+test47	./bstr/bstest.c	/^static int test47 (void) {$/;"	f	file:
+test47_0	./bstr/bstest.c	/^static int test47_0 (const struct tagbstring* b, const unsigned char* blk, int len, int res) {$/;"	f	file:
+test48	./bstr/bstest.c	/^static int test48 (void) {$/;"	f	file:
+test48_0	./bstr/bstest.c	/^static int test48_0 (const_bstring b, const unsigned char * blk, int len, int res) {$/;"	f	file:
+test4_0	./bstr/bstest.c	/^static int test4_0 (const_bstring b, int left, int len, const char * res) {$/;"	f	file:
+test5	./bstr/bstest.c	/^static int test5 (void) {$/;"	f	file:
+test5	./bstr/test.cpp	/^int test5 (void) {$/;"	f
+test5	./bstr/testaux.c	/^int test5 (void) {$/;"	f
+test5_0	./bstr/bstest.c	/^static int test5_0 (bstring b0, const_bstring b1, const char * res) {$/;"	f	file:
+test5_1	./bstr/bstest.c	/^static int test5_1 (void) {$/;"	f	file:
+test6	./bstr/bstest.c	/^static int test6 (void) {$/;"	f	file:
+test6	./bstr/test.cpp	/^int test6 (void) {$/;"	f
+test6	./bstr/testaux.c	/^int test6 (void) {$/;"	f
+test6_0	./bstr/bstest.c	/^static int test6_0 (bstring b, char c, const char * res) {$/;"	f	file:
+test7	./bstr/bstest.c	628;"	d	file:
+test7	./bstr/test.cpp	/^int test7 (void) {$/;"	f
+test7	./bstr/testaux.c	/^int test7 (void) {$/;"	f
+test7x8	./bstr/bstest.c	/^static int test7x8 (char * fnname, int (* fnptr) (const struct tagbstring *, const struct tagbstring *),$/;"	f	file:
+test7x8_0	./bstr/bstest.c	/^static int test7x8_0 (char * fnname, int (* fnptr) (const struct tagbstring *, const struct tagbstring *), const struct tagbstring * b0, const struct tagbstring * b1, int res) {$/;"	f	file:
+test8	./bstr/bstest.c	629;"	d	file:
+test8	./bstr/test.cpp	/^int test8 (void) {$/;"	f
+test8	./bstr/testaux.c	/^int test8 (void) {$/;"	f
+test9	./bstr/bstest.c	/^static int test9 (void) {$/;"	f	file:
+test9	./bstr/test.cpp	/^int test9 (void) {$/;"	f
+test9	./bstr/testaux.c	/^int test9 (void) {$/;"	f
+test9_0	./bstr/bstest.c	/^static int test9_0 (const_bstring b0, const_bstring b1, int n, int res) {$/;"	f	file:
+testInCharField	./bstr/bstrlib.c	1374;"	d	file:
+testInCharField	./bstr/bstrlib.c	1386;"	d	file:
+text	./inc/intertask_messages_types.h	/^  char      text[];$/;"	m	struct:IttiMsgText_s
+thread	./inc/intertask_interface.h	/^  thread_id_t thread;$/;"	m	struct:task_info_s
+thread_desc_s	./inc/intertask_interface.c	/^typedef struct thread_desc_s {$/;"	s	file:
+thread_desc_t	./inc/intertask_interface.c	/^} thread_desc_t;$/;"	t	typeref:struct:thread_desc_s	file:
+thread_handling_signals	./inc/intertask_interface.c	/^  bool                                    thread_handling_signals;$/;"	m	struct:itti_desc_s	file:
+thread_id_t	./inc/intertask_interface_types.h	/^} thread_id_t;$/;"	t	typeref:enum:__anon5
+thread_max	./inc/intertask_interface.c	/^  thread_id_t                             thread_max;$/;"	m	struct:itti_desc_s	file:
+thread_ref	./inc/intertask_interface.c	/^  pthread_t                               thread_ref;$/;"	m	struct:itti_desc_s	file:
+threads	./inc/intertask_interface.c	/^  thread_desc_t                          *threads;$/;"	m	struct:itti_desc_s	file:
+time	./inc/intertask_interface_types.h	/^  struct timeval time;$/;"	m	struct:itti_lte_time_s	typeref:struct:itti_lte_time_s::timeval
+timeout	./inc/timer.c	/^  struct timespec                         timeout;$/;"	m	struct:timer_desc_s	typeref:struct:timer_desc_s::timespec	file:
+timer	./inc/timer.c	/^  timer_t                                 timer;        \/\/\/< Unique timer id$/;"	m	struct:timer_elm_s	file:
+timer_arg	./inc/timer.c	/^  void                                   *timer_arg;    \/\/\/< Optional argument that will be passed when timer expires$/;"	m	struct:timer_elm_s	file:
+timer_desc	./inc/timer.c	/^static timer_desc_t                     timer_desc;$/;"	v	file:
+timer_desc_s	./inc/timer.c	/^typedef struct timer_desc_s {$/;"	s	file:
+timer_desc_t	./inc/timer.c	/^} timer_desc_t;$/;"	t	typeref:struct:timer_desc_s	file:
+timer_elm_s	./inc/timer.c	/^struct timer_elm_s {$/;"	s	file:
+timer_handle_signal	./inc/timer.c	/^timer_handle_signal ($/;"	f
+timer_has_expired_t	./inc/timer_messages_types.h	/^} timer_has_expired_t;$/;"	t	typeref:struct:__anon3
+timer_id	./inc/timer_messages_types.h	/^  long  timer_id;$/;"	m	struct:__anon3
+timer_init	./inc/timer.c	/^timer_init ($/;"	f
+timer_list_mutex	./inc/timer.c	/^  pthread_mutex_t                         timer_list_mutex;$/;"	m	struct:timer_desc_s	file:
+timer_remove	./inc/timer.c	/^timer_remove ($/;"	f
+timer_setup	./inc/timer.c	/^timer_setup ($/;"	f
+timer_stop	./inc/timer.h	69;"	d
+timer_type_s	./inc/timer.h	/^typedef enum timer_type_s {$/;"	g
+timer_type_t	./inc/timer.h	/^} timer_type_t;$/;"	t	typeref:enum:timer_type_s
+tolower	./bstr/bstrwrap.cpp	/^void CBString::tolower () {$/;"	f	class:Bstrlib::CBString
+toupper	./bstr/bstrwrap.cpp	/^void CBString::toupper () {$/;"	f	class:Bstrlib::CBString
+trim	./bstr/bstrwrap.h	/^	inline void trim (const CBString& b = CBString (bsStaticBlkParms (" \\t\\v\\f\\r\\n"))) {$/;"	f	struct:Bstrlib::CBString
+trunc	./bstr/bstrwrap.cpp	/^void CBString::trunc (int len) {$/;"	f	class:Bstrlib::CBString
+type	./inc/timer.c	/^  timer_type_t                            type; \/\/\/< Timer type$/;"	m	struct:timer_elm_s	file:
+university	./inc/demo_messages_types.h	/^	const char *university;$/;"	m	struct:message_demo_s
+unread	./bstr/bstrwrap.cpp	/^void CBStream::unread (const CBString& s) {$/;"	f	class:Bstrlib::CBStream
+upcase	./bstr/bstrlib.c	598;"	d	file:
+utf8Iterator	./bstr/utf8util.h	/^struct utf8Iterator {$/;"	s
+utf8IteratorGetCurrCodePoint	./bstr/utf8util.c	/^cpUcs4 utf8IteratorGetCurrCodePoint (struct utf8Iterator* iter, cpUcs4 errCh) {$/;"	f
+utf8IteratorGetNextCodePoint	./bstr/utf8util.c	/^cpUcs4 utf8IteratorGetNextCodePoint (struct utf8Iterator* iter, cpUcs4 errCh) {$/;"	f
+utf8IteratorInit	./bstr/utf8util.c	/^void utf8IteratorInit (struct utf8Iterator* iter, unsigned char* data, int slen) {$/;"	f
+utf8IteratorNoMore	./bstr/utf8util.h	50;"	d
+utf8IteratorUninit	./bstr/utf8util.c	/^void utf8IteratorUninit (struct utf8Iterator* iter) {$/;"	f
+utf8ScanBackwardsForCodePoint	./bstr/utf8util.c	/^int utf8ScanBackwardsForCodePoint (unsigned char* msg, int len, int pos, cpUcs4* out) {$/;"	f
+vcd_mp_alloc	./inc/memory_pools.c	/^uint64_t                                vcd_mp_alloc;$/;"	v
+vcd_mp_free	./inc/memory_pools.c	/^uint64_t                                vcd_mp_free;$/;"	v
+vcd_poll_msg	./inc/intertask_interface.c	/^  uint64_t                                vcd_poll_msg;$/;"	m	struct:itti_desc_s	file:
+vcd_receive_msg	./inc/intertask_interface.c	/^  uint64_t                                vcd_receive_msg;$/;"	m	struct:itti_desc_s	file:
+vcd_send_msg	./inc/intertask_interface.c	/^  uint64_t                                vcd_send_msg;$/;"	m	struct:itti_desc_s	file:
+vfgetc	./bstr/testaux.c	/^struct vfgetc {$/;"	s	file:
+wait_tasks	./inc/intertask_interface.c	/^  volatile int                            wait_tasks;$/;"	m	struct:itti_desc_s	file:
+what	./bstr/bstrwrap.h	/^	virtual const char *what () const throw () { return msg.c_str(); }$/;"	f	struct:Bstrlib::CBStringException
+writeFn	./bstr/bstraux.c	/^    bNwrite writeFn; \/* fwrite work-a-like fnptr for core stream *\/$/;"	m	struct:bwriteStream	file:
+writeallow	./bstr/bstrwrap.cpp	/^void CBString::writeallow () {$/;"	f	class:Bstrlib::CBString
+writeprotect	./bstr/bstrwrap.cpp	/^void CBString::writeprotect () {$/;"	f	class:Bstrlib::CBString
+wspace	./bstr/bstrlib.c	600;"	d	file:
+xxxxxBstring	./bstr/bstest.c	/^struct tagbstring xxxxxBstring = bsStatic ("xxxxx");$/;"	v	typeref:struct:tagbstring
+~CBStream	./bstr/bstrwrap.cpp	/^CBStream::~CBStream () {$/;"	f	class:Bstrlib::CBStream
+~CBString	./bstr/bstrwrap.cpp	/^CBString::~CBString () {$/;"	f	class:Bstrlib::CBString
+~CBStringException	./bstr/bstrwrap.h	/^	virtual ~CBStringException () throw () {}$/;"	f	struct:Bstrlib::CBStringException
